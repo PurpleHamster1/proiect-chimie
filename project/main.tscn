@@ -1,4 +1,7 @@
-[gd_scene format=3 uid="uid://bxubmmwnlk8d8"]
+[gd_scene load_steps=2 format=3 uid="uid://bxubmmwnlk8d8"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_x5260"]
+bg_color = Color(1, 0.321569, 0.423529, 1)
 
 [node name="Main" type="Node2D"]
 
@@ -11,6 +14,7 @@ anchor_bottom = 1.0
 offset_left = 43.0
 grow_horizontal = 2
 grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_x5260")
 
 [node name="Label" type="Label" parent="MainGUI/Background"]
 layout_mode = 0
