@@ -1,3 +1,4 @@
 res://main.tscn
 res://ElementBase.tscn
 res://Elements/empty_element.tscn
+res://main.gd
