@@ -1,3 +1,7 @@
 Label
+Control
 Panel
+PanelContainer
+GridContainer
+ColorRect
 CanvasLayer

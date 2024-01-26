@@ -1,25 +1,41 @@
 [gd_scene load_steps=2 format=3 uid="uid://bxubmmwnlk8d8"]
 
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_x5260"]
-bg_color = Color(1, 0.321569, 0.423529, 1)
+[ext_resource type="PackedScene" uid="uid://djqj55iccj6rx" path="res://ElementBase.tscn" id="1_bx3qn"]
 
 [node name="Main" type="Node2D"]
 
 [node name="MainGUI" type="CanvasLayer" parent="."]
 
-[node name="Background" type="Panel" parent="MainGUI"]
+[node name="Background" type="ColorRect" parent="MainGUI"]
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = 43.0
 grow_horizontal = 2
 grow_vertical = 2
-theme_override_styles/panel = SubResource("StyleBoxFlat_x5260")
+color = Color(0.0705882, 0.0705882, 0.0705882, 1)
 
-[node name="Label" type="Label" parent="MainGUI/Background"]
-layout_mode = 0
-offset_right = 596.0
-offset_bottom = 313.0
-text = "TEST"
-horizontal_alignment = 1
-vertical_alignment = 1
+[node name="PeriodicTable" type="Control" parent="MainGUI/Background"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 82.0
+offset_top = 98.0
+offset_right = -82.0
+offset_bottom = -98.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Elements" type="GridContainer" parent="MainGUI/Background/PeriodicTable"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/h_separation = 5
+theme_override_constants/v_separation = 5
+columns = 18
+
+[node name="Panel" parent="MainGUI/Background/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2

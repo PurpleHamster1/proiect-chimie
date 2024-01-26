@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://0xfuoff1m8j7"]
+
+[ext_resource type="PackedScene" uid="uid://djqj55iccj6rx" path="res://ElementBase.tscn" id="1_prbye"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_4m5uv"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+
+[node name="EmptyElement" instance=ExtResource("1_prbye")]
+theme_override_styles/panel = SubResource("StyleBoxFlat_4m5uv")
