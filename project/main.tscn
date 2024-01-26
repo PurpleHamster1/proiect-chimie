@@ -18,15 +18,13 @@ color = Color(0.0705882, 0.0705882, 0.0705882, 1)
 
 [node name="PeriodicTable" type="Control" parent="MainGUI/Background"]
 layout_mode = 1
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 82.0
-offset_top = 98.0
-offset_right = -82.0
-offset_bottom = -98.0
+anchor_left = 0.0711806
+anchor_top = 0.151235
+anchor_right = 0.928819
+anchor_bottom = 0.848765
 grow_horizontal = 2
 grow_vertical = 2
+metadata/_edit_use_anchors_ = true
 
 [node name="Elements" type="GridContainer" parent="MainGUI/Background/PeriodicTable"]
 layout_mode = 1
