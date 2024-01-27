@@ -19,9 +19,9 @@ color = Color(0.0705882, 0.0705882, 0.0705882, 1)
 [node name="PeriodicTable" type="Control" parent="MainGUI/Background"]
 layout_mode = 1
 anchor_left = 0.0711806
-anchor_top = 0.151235
+anchor_top = 0.0910494
 anchor_right = 0.928819
-anchor_bottom = 0.848765
+anchor_bottom = 0.788579
 grow_horizontal = 2
 grow_vertical = 2
 metadata/_edit_use_anchors_ = true
@@ -37,5 +37,5 @@ theme_override_constants/h_separation = 5
 theme_override_constants/v_separation = 5
 columns = 18
 
-[node name="Panel" parent="MainGUI/Background/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+[node name="ElementBase" parent="MainGUI/Background/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
 layout_mode = 2

@@ -1,6 +1,7 @@
+RichTextLabel
+Panel
 Label
 Control
-Panel
 PanelContainer
 GridContainer
 ColorRect

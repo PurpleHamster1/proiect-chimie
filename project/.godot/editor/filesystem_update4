@@ -1,4 +1,4 @@
-res://main.tscn
 res://ElementBase.tscn
+res://main.tscn
 res://Elements/empty_element.tscn
-res://main.gd
+res://ElementBase.gd
