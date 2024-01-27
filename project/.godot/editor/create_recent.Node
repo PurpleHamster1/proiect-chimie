@@ -1,8 +1,9 @@
-RichTextLabel
 Panel
-Label
+HBoxContainer
+ColorRect
 Control
+RichTextLabel
+Label
 PanelContainer
 GridContainer
-ColorRect
 CanvasLayer

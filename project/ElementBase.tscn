@@ -1,8 +1,20 @@
-[gd_scene load_steps=3 format=3 uid="uid://djqj55iccj6rx"]
+[gd_scene load_steps=4 format=3 uid="uid://djqj55iccj6rx"]
 
 [ext_resource type="Script" path="res://ElementBase.gd" id="1_1aox5"]
 
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_eaouu"]
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_jp3ns"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_76ebi"]
 border_width_left = 1
 border_width_top = 1
 border_width_right = 1
@@ -16,11 +28,41 @@ corner_detail = 1
 
 [node name="ElementBase" type="Panel"]
 custom_minimum_size = Vector2(50, 50)
-theme_override_styles/panel = SubResource("StyleBoxFlat_eaouu")
+theme_override_styles/panel = SubResource("StyleBoxFlat_jp3ns")
 script = ExtResource("1_1aox5")
 tip = "Nemetal"
 nr = "1"
+simbol = "H"
+nume = "Hidrogen"
 masa = "1.008"
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect" type="ColorRect" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 2.0
+offset_top = 2.0
+offset_right = -2.0
+offset_bottom = -2.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Id" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -23.0
+offset_right = 72.0
+offset_bottom = 28.0
+grow_horizontal = 2
+scale = Vector2(0.474611, 0.474611)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 20
+text = "1"
 
 [node name="Symbol" type="Label" parent="."]
 layout_mode = 1
@@ -50,7 +92,7 @@ theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 20
 text = "Hidrogen"
 
-[node name="Name2" type="Label" parent="."]
+[node name="Mass" type="Label" parent="."]
 layout_mode = 1
 anchors_preset = 5
 anchor_left = 0.5
@@ -65,16 +107,29 @@ theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 14
 text = "1.008"
 
-[node name="Id" type="Label" parent="."]
+[node name="PopUp" type="Panel" parent="."]
+visible = false
+z_index = 1
+layout_mode = 0
+offset_left = 49.0
+offset_right = 239.0
+offset_bottom = 243.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_76ebi")
+
+[node name="Desc" type="RichTextLabel" parent="PopUp"]
 layout_mode = 1
-anchors_preset = 5
-anchor_left = 0.5
-anchor_right = 0.5
-offset_left = -23.0
-offset_right = 72.0
-offset_bottom = 28.0
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 4.0
+offset_top = 3.0
+offset_right = -4.0
+offset_bottom = -3.0
 grow_horizontal = 2
-scale = Vector2(0.474611, 0.474611)
-theme_override_colors/font_color = Color(0, 0, 0, 1)
-theme_override_font_sizes/font_size = 20
-text = "1"
+grow_vertical = 2
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/normal_font_size = 9
+bbcode_enabled = true
+
+[connection signal="mouse_entered" from="." to="." method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="." to="." method="_on_mouse_exited"]
