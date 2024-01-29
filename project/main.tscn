@@ -1,10 +1,12 @@
-[gd_scene load_steps=17 format=3 uid="uid://bxubmmwnlk8d8"]
+[gd_scene load_steps=18 format=3 uid="uid://bxubmmwnlk8d8"]
 
 [ext_resource type="PackedScene" uid="uid://djqj55iccj6rx" path="res://ElementBase.tscn" id="1_bx3qn"]
 [ext_resource type="Script" path="res://main.gd" id="1_xijjo"]
 [ext_resource type="PackedScene" uid="uid://0xfuoff1m8j7" path="res://Elements/empty_element.tscn" id="3_qrld7"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_yv2sm"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_qo5f6"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_emgde"]
 border_width_left = 1
@@ -176,11 +178,343 @@ custom_minimum_size = Vector2(250, 0)
 layout_mode = 2
 theme_override_styles/panel = SubResource("StyleBoxFlat_yv2sm")
 
-[node name="PeriodicTable" type="Control" parent="MainGUI/Background/HBoxContainer"]
+[node name="VBoxContainer" type="VBoxContainer" parent="MainGUI/Background/HBoxContainer"]
+layout_mode = 2
+
+[node name="Grupele" type="HBoxContainer" parent="MainGUI/Background/HBoxContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 140)
+layout_mode = 2
+theme_override_constants/separation = 5
+
+[node name="1" type="Panel" parent="MainGUI/Background/HBoxContainer/VBoxContainer/Grupele"]
+custom_minimum_size = Vector2(50, 75)
+layout_mode = 2
+size_flags_vertical = 0
+theme_override_styles/panel = SubResource("StyleBoxEmpty_qo5f6")
+
+[node name="Label" type="Label" parent="MainGUI/Background/HBoxContainer/VBoxContainer/Grupele/1"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "1
+I A"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="2" type="Panel" parent="MainGUI/Background/HBoxContainer/VBoxContainer/Grupele"]
+custom_minimum_size = Vector2(50, 75)
+layout_mode = 2
+size_flags_vertical = 0
+theme_override_styles/panel = SubResource("StyleBoxEmpty_qo5f6")
+
+[node name="Label" type="Label" parent="MainGUI/Background/HBoxContainer/VBoxContainer/Grupele/2"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "2
+II A"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="3" type="Panel" parent="MainGUI/Background/HBoxContainer/VBoxContainer/Grupele"]
+custom_minimum_size = Vector2(50, 75)
+layout_mode = 2
+size_flags_vertical = 0
+theme_override_styles/panel = SubResource("StyleBoxEmpty_qo5f6")
+
+[node name="Label" type="Label" parent="MainGUI/Background/HBoxContainer/VBoxContainer/Grupele/3"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "3
+III B"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="4" type="Panel" parent="MainGUI/Background/HBoxContainer/VBoxContainer/Grupele"]
+custom_minimum_size = Vector2(50, 75)
+layout_mode = 2
+size_flags_vertical = 0
+theme_override_styles/panel = SubResource("StyleBoxEmpty_qo5f6")
+
+[node name="Label" type="Label" parent="MainGUI/Background/HBoxContainer/VBoxContainer/Grupele/4"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "4
+IV B"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="5" type="Panel" parent="MainGUI/Background/HBoxContainer/VBoxContainer/Grupele"]
+custom_minimum_size = Vector2(50, 75)
+layout_mode = 2
+size_flags_vertical = 0
+theme_override_styles/panel = SubResource("StyleBoxEmpty_qo5f6")
+
+[node name="Label" type="Label" parent="MainGUI/Background/HBoxContainer/VBoxContainer/Grupele/5"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "5
+V B"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="6" type="Panel" parent="MainGUI/Background/HBoxContainer/VBoxContainer/Grupele"]
+custom_minimum_size = Vector2(50, 75)
+layout_mode = 2
+size_flags_vertical = 0
+theme_override_styles/panel = SubResource("StyleBoxEmpty_qo5f6")
+
+[node name="Label" type="Label" parent="MainGUI/Background/HBoxContainer/VBoxContainer/Grupele/6"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "6
+VI B"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="7" type="Panel" parent="MainGUI/Background/HBoxContainer/VBoxContainer/Grupele"]
+custom_minimum_size = Vector2(50, 75)
+layout_mode = 2
+size_flags_vertical = 0
+theme_override_styles/panel = SubResource("StyleBoxEmpty_qo5f6")
+
+[node name="Label" type="Label" parent="MainGUI/Background/HBoxContainer/VBoxContainer/Grupele/7"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "7
+VII B"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="8" type="Panel" parent="MainGUI/Background/HBoxContainer/VBoxContainer/Grupele"]
+custom_minimum_size = Vector2(50, 75)
+layout_mode = 2
+size_flags_vertical = 0
+theme_override_styles/panel = SubResource("StyleBoxEmpty_qo5f6")
+
+[node name="Label" type="Label" parent="MainGUI/Background/HBoxContainer/VBoxContainer/Grupele/8"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "8
+VIII B"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="9" type="Panel" parent="MainGUI/Background/HBoxContainer/VBoxContainer/Grupele"]
+custom_minimum_size = Vector2(50, 75)
+layout_mode = 2
+size_flags_vertical = 0
+theme_override_styles/panel = SubResource("StyleBoxEmpty_qo5f6")
+
+[node name="Label" type="Label" parent="MainGUI/Background/HBoxContainer/VBoxContainer/Grupele/9"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "9
+VIII B"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="10" type="Panel" parent="MainGUI/Background/HBoxContainer/VBoxContainer/Grupele"]
+custom_minimum_size = Vector2(50, 75)
+layout_mode = 2
+size_flags_vertical = 0
+theme_override_styles/panel = SubResource("StyleBoxEmpty_qo5f6")
+
+[node name="Label" type="Label" parent="MainGUI/Background/HBoxContainer/VBoxContainer/Grupele/10"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "10
+VIII B"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="11" type="Panel" parent="MainGUI/Background/HBoxContainer/VBoxContainer/Grupele"]
+custom_minimum_size = Vector2(50, 75)
+layout_mode = 2
+size_flags_vertical = 0
+theme_override_styles/panel = SubResource("StyleBoxEmpty_qo5f6")
+
+[node name="Label" type="Label" parent="MainGUI/Background/HBoxContainer/VBoxContainer/Grupele/11"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "11
+I B"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="12" type="Panel" parent="MainGUI/Background/HBoxContainer/VBoxContainer/Grupele"]
+custom_minimum_size = Vector2(50, 75)
+layout_mode = 2
+size_flags_vertical = 0
+theme_override_styles/panel = SubResource("StyleBoxEmpty_qo5f6")
+
+[node name="Label" type="Label" parent="MainGUI/Background/HBoxContainer/VBoxContainer/Grupele/12"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "12
+II B"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="13" type="Panel" parent="MainGUI/Background/HBoxContainer/VBoxContainer/Grupele"]
+custom_minimum_size = Vector2(50, 75)
+layout_mode = 2
+size_flags_vertical = 0
+theme_override_styles/panel = SubResource("StyleBoxEmpty_qo5f6")
+
+[node name="Label" type="Label" parent="MainGUI/Background/HBoxContainer/VBoxContainer/Grupele/13"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "13
+III A"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="14" type="Panel" parent="MainGUI/Background/HBoxContainer/VBoxContainer/Grupele"]
+custom_minimum_size = Vector2(50, 75)
+layout_mode = 2
+size_flags_vertical = 0
+theme_override_styles/panel = SubResource("StyleBoxEmpty_qo5f6")
+
+[node name="Label" type="Label" parent="MainGUI/Background/HBoxContainer/VBoxContainer/Grupele/14"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "14
+IV A"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="15" type="Panel" parent="MainGUI/Background/HBoxContainer/VBoxContainer/Grupele"]
+custom_minimum_size = Vector2(50, 75)
+layout_mode = 2
+size_flags_vertical = 0
+theme_override_styles/panel = SubResource("StyleBoxEmpty_qo5f6")
+
+[node name="Label" type="Label" parent="MainGUI/Background/HBoxContainer/VBoxContainer/Grupele/15"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "15
+V A"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="16" type="Panel" parent="MainGUI/Background/HBoxContainer/VBoxContainer/Grupele"]
+custom_minimum_size = Vector2(50, 75)
+layout_mode = 2
+size_flags_vertical = 0
+theme_override_styles/panel = SubResource("StyleBoxEmpty_qo5f6")
+
+[node name="Label" type="Label" parent="MainGUI/Background/HBoxContainer/VBoxContainer/Grupele/16"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "16
+VI A"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="17" type="Panel" parent="MainGUI/Background/HBoxContainer/VBoxContainer/Grupele"]
+custom_minimum_size = Vector2(50, 75)
+layout_mode = 2
+size_flags_vertical = 0
+theme_override_styles/panel = SubResource("StyleBoxEmpty_qo5f6")
+
+[node name="Label" type="Label" parent="MainGUI/Background/HBoxContainer/VBoxContainer/Grupele/17"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "17
+VII A"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="18" type="Panel" parent="MainGUI/Background/HBoxContainer/VBoxContainer/Grupele"]
+custom_minimum_size = Vector2(50, 75)
+layout_mode = 2
+size_flags_vertical = 0
+theme_override_styles/panel = SubResource("StyleBoxEmpty_qo5f6")
+
+[node name="Label" type="Label" parent="MainGUI/Background/HBoxContainer/VBoxContainer/Grupele/18"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "18
+VIII A"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="PeriodicTable" type="Control" parent="MainGUI/Background/HBoxContainer/VBoxContainer"]
 custom_minimum_size = Vector2(1000, 20)
 layout_mode = 2
 
-[node name="Elements" type="GridContainer" parent="MainGUI/Background/HBoxContainer/PeriodicTable"]
+[node name="Elements" type="GridContainer" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable"]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -193,62 +527,62 @@ theme_override_constants/h_separation = 5
 theme_override_constants/v_separation = 5
 columns = 18
 
-[node name="ElementBase" parent="MainGUI/Background/HBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+[node name="ElementBase" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
 layout_mode = 2
 theme_override_styles/panel = SubResource("StyleBoxFlat_emgde")
 desc = "	Este un gaz ușor inflamabil, incolor, insipid, inodor, iar în natură se întâlnește mai ales sub formă de moleculă diatomică, H2. Având masa atomică egală cu 1,00794 u.a.m., hidrogenul este cel mai ușor element chimic. Etimologic, cuvântul hidrogen este o combinație a două cuvinte grecești, având semnificația de „a produce apă”.
 
 	Hidrogenul elementar este principala componentă a Universului, având o pondere de 75 % din masa acestuia. În starea de plasmă, se găsește ca element majoritar în alcătuirea stelelor. Hidrogenul elementar este foarte puțin răspândit pe Pământ."
 
-[node name="EmptyElement" parent="MainGUI/Background/HBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
+[node name="EmptyElement" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
 layout_mode = 2
 
-[node name="EmptyElement2" parent="MainGUI/Background/HBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
+[node name="EmptyElement2" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
 layout_mode = 2
 
-[node name="EmptyElement3" parent="MainGUI/Background/HBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
+[node name="EmptyElement3" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
 layout_mode = 2
 
-[node name="EmptyElement4" parent="MainGUI/Background/HBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
+[node name="EmptyElement4" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
 layout_mode = 2
 
-[node name="EmptyElement5" parent="MainGUI/Background/HBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
+[node name="EmptyElement5" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
 layout_mode = 2
 
-[node name="EmptyElement6" parent="MainGUI/Background/HBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
+[node name="EmptyElement6" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
 layout_mode = 2
 
-[node name="EmptyElement7" parent="MainGUI/Background/HBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
+[node name="EmptyElement7" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
 layout_mode = 2
 
-[node name="EmptyElement8" parent="MainGUI/Background/HBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
+[node name="EmptyElement8" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
 layout_mode = 2
 
-[node name="EmptyElement9" parent="MainGUI/Background/HBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
+[node name="EmptyElement9" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
 layout_mode = 2
 
-[node name="EmptyElement10" parent="MainGUI/Background/HBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
+[node name="EmptyElement10" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
 layout_mode = 2
 
-[node name="EmptyElement11" parent="MainGUI/Background/HBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
+[node name="EmptyElement11" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
 layout_mode = 2
 
-[node name="EmptyElement12" parent="MainGUI/Background/HBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
+[node name="EmptyElement12" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
 layout_mode = 2
 
-[node name="EmptyElement13" parent="MainGUI/Background/HBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
+[node name="EmptyElement13" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
 layout_mode = 2
 
-[node name="EmptyElement14" parent="MainGUI/Background/HBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
+[node name="EmptyElement14" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
 layout_mode = 2
 
-[node name="EmptyElement15" parent="MainGUI/Background/HBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
+[node name="EmptyElement15" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
 layout_mode = 2
 
-[node name="EmptyElement16" parent="MainGUI/Background/HBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
+[node name="EmptyElement16" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
 layout_mode = 2
 
-[node name="ElementBase2" parent="MainGUI/Background/HBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+[node name="ElementBase2" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
 layout_mode = 2
 theme_override_styles/panel = SubResource("StyleBoxFlat_sgw6j")
 tip = "Nobil"
@@ -261,7 +595,7 @@ desc = "	Heliul este elementul chimic cu numărul atomic 2 și este reprezentat 
 	O linie spectrală neobișnuită a fost observată în lumina solară prima oară într-o eclipsă solară din anul 1868 de către astronomul francez Pierre Janssen."
 onLeft = true
 
-[node name="ElementBase3" parent="MainGUI/Background/HBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+[node name="ElementBase3" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
 layout_mode = 2
 theme_override_styles/panel = SubResource("StyleBoxFlat_ii8tn")
 tip = "Alca"
@@ -272,7 +606,7 @@ desc = "	Litiul este un element chimic având simbolul chimic Li și numărul at
 
 	Datorită reactivității sale înalte, litiul nu este niciodată întâlnit sub formă liberă în natură, fiind prezent sub formă de compuși ionici. Este constituent al unor minerale pegmatice și prezent totodată în apa oceanelor și obținut din saramuri și argile."
 
-[node name="ElementBase4" parent="MainGUI/Background/HBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+[node name="ElementBase4" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
 layout_mode = 2
 theme_override_styles/panel = SubResource("StyleBoxFlat_t85ep")
 tip = "AlcaP"
@@ -284,37 +618,37 @@ desc = "Numele acestei substanțe provine din grecescul βήρυλλος / beryl
 
 Este întâlnit în natură doar în combinații cu alte elemente, fiind prezent în compoziția mineralelor. Cele mai cunoscute pietre prețioase care conțin beriliu sunt beril (acvamarinul, smaraldul) și crisoberilul. Ca și element pur, este un metal alcalino-pământos de culoare gri, ușor și casant."
 
-[node name="EmptyElement17" parent="MainGUI/Background/HBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
+[node name="EmptyElement17" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
 layout_mode = 2
 
-[node name="EmptyElement18" parent="MainGUI/Background/HBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
+[node name="EmptyElement18" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
 layout_mode = 2
 
-[node name="EmptyElement19" parent="MainGUI/Background/HBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
+[node name="EmptyElement19" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
 layout_mode = 2
 
-[node name="EmptyElement20" parent="MainGUI/Background/HBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
+[node name="EmptyElement20" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
 layout_mode = 2
 
-[node name="EmptyElement21" parent="MainGUI/Background/HBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
+[node name="EmptyElement21" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
 layout_mode = 2
 
-[node name="EmptyElement22" parent="MainGUI/Background/HBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
+[node name="EmptyElement22" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
 layout_mode = 2
 
-[node name="EmptyElement23" parent="MainGUI/Background/HBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
+[node name="EmptyElement23" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
 layout_mode = 2
 
-[node name="EmptyElement24" parent="MainGUI/Background/HBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
+[node name="EmptyElement24" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
 layout_mode = 2
 
-[node name="EmptyElement25" parent="MainGUI/Background/HBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
+[node name="EmptyElement25" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
 layout_mode = 2
 
-[node name="EmptyElement26" parent="MainGUI/Background/HBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
+[node name="EmptyElement26" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
 layout_mode = 2
 
-[node name="ElementBase5" parent="MainGUI/Background/HBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+[node name="ElementBase5" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
 layout_mode = 2
 theme_override_styles/panel = SubResource("StyleBoxFlat_seolj")
 tip = "Metalo"
@@ -324,7 +658,7 @@ nume = "Bor"
 masa = "10.81"
 desc = "	În stare pură se află sub formă de cristale negre, cenușii și există în două modificații aleotropice: cristalizat (Å = 2,54) și amorf (Å = 2,45) Borul este indiferent față de apă și aer, la încălzire manifestă o activitate chimică înaltă. Reacționează cu clorul la 400°C, cu bromul la 700°C și la peste 900°C cu azotul, iar combinându-se cu carbonul rezultă o substanță mai tare decât diamantul; se folosește în fabricarea oțelurilor speciale (ferobor) a diferitelor aliaje cu wolfram, cupru și crom."
 
-[node name="ElementBase6" parent="MainGUI/Background/HBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+[node name="ElementBase6" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
 layout_mode = 2
 theme_override_styles/panel = SubResource("StyleBoxFlat_sf5xs")
 nr = "6"
@@ -333,7 +667,7 @@ nume = "Carbon"
 masa = "12.01"
 desc = "	Carbonul este al 15-lea cel mai abundent element din scoarța terestră, și al patrulea cel mai răspândit element din univers după masă, primele fiind hidrogenul, heliul și oxigenul. Răspândirea naturală mare a carbonului, diversitatea specifică a compușilor săi organici și abilitatea sa unică de a forma polimeri la temperaturi terestre i-au permis carbonului să fie elementul chimic comun al lumii vii. Este al doilea cel mai abundent element din corpul uman, după oxigen, reprezentând aproximativ 18,5% în procente de masă."
 
-[node name="ElementBase7" parent="MainGUI/Background/HBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+[node name="ElementBase7" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
 layout_mode = 2
 theme_override_styles/panel = SubResource("StyleBoxFlat_7oxsv")
 nr = "7"
@@ -344,7 +678,7 @@ desc = "	Azotul (sau nitrogenul) este elementul chimic din tabelul periodic care
 
 	Azotul formează numeroși compuși chimici, precum aminoacizii, amoniacul, acidul nitric și cianurile."
 
-[node name="ElementBase8" parent="MainGUI/Background/HBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+[node name="ElementBase8" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
 layout_mode = 2
 theme_override_styles/panel = SubResource("StyleBoxFlat_3x4nw")
 nr = "8"
@@ -353,7 +687,7 @@ nume = "Oxigen"
 masa = "15.999"
 desc = "	Multe clase majore de molecule organice în organismele vii, cum ar fi proteinele, acizii nucleici, carbohidrații, și grăsimile, conțin oxigen, la fel ca și cei mai importanți compuși organici, care fac parte din cochiliile, dinții și oasele animalelor. Majoritatea masei organismelor vii o reprezintă oxigenul deoarece face parte din apă, principala componentă a formelor de viață (spre exemplu, aproape 2/3 din masa corpului uman). Oxigenul elementar e produs de cianobacterii, alge și plante, fiind folosit în respirația celulară în toate formele complexe de viață."
 
-[node name="ElementBase9" parent="MainGUI/Background/HBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+[node name="ElementBase9" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
 layout_mode = 2
 theme_override_styles/panel = SubResource("StyleBoxFlat_7318l")
 tip = "Halo"
@@ -364,7 +698,7 @@ masa = "18.998"
 desc = "	Fluorul este un element chimic din grupa a 7-a a sistemului periodic (grupa halogenilor), cu simbolul F și cu numărul atomic 9. Este cel mai ușor halogen și există sub forma unui gaz diatomic extrem de toxic, de culoare galben-pal în condiții standard. Este cel mai electronegativ element, fiind astfel extrem de reactiv: aproape toate elementele, chiar și unele gaze nobile, formează compuși cu fluorul."
 onLeft = true
 
-[node name="ElementBase10" parent="MainGUI/Background/HBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+[node name="ElementBase10" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
 layout_mode = 2
 theme_override_styles/panel = SubResource("StyleBoxFlat_eq26r")
 tip = "Nobil"
@@ -375,7 +709,7 @@ masa = "20.180"
 desc = "	Neonul(din greaca νέον) a fost descoperit în anul 1898 de către chimistul scoțian Sir William Ramsay în colaborare cu chimistul englez Morris W. Travers. Neonul a fost descoperit când Ramsay a răcit o mostră de atmosferă până a devenit lichidă, apoi a încălzit lichidul și a colectat gazele obținute(kripton, xenon și neon)"
 onLeft = true
 
-[node name="ElementBase11" parent="MainGUI/Background/HBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+[node name="ElementBase11" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
 layout_mode = 2
 theme_override_styles/panel = SubResource("StyleBoxFlat_b1dvc")
 tip = "Alca"
@@ -385,7 +719,7 @@ nume = "Sodiu"
 masa = "22.990"
 desc = "	Sodiul (câteodată denumit și natriu) este un element chimic cu simbolul Na și numărul atomic 11. Este un metal alcalin, gri, moale, cu o reactivitate ridicată. Din această cauză, sodiul nu există liber în natură, ci doar sub formă de combinații chimice deosebit de stabile. În stare liberă, reacționează violent cu apa și ia foc în aer la temperaturi de peste 115°C. La temperatură obișnuită lăsat în aer fumegă. Datorită liniilor sale spectrale din domeniul culorii galben, conferă unei flăcări culoarea galben."
 
-[node name="ElementBase12" parent="MainGUI/Background/HBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+[node name="ElementBase12" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
 layout_mode = 2
 theme_override_styles/panel = SubResource("StyleBoxFlat_cmlkf")
 tip = "AlcaP"
@@ -395,37 +729,37 @@ nume = "Magneziu"
 masa = "24.305"
 desc = "	Magneziul este elementul chimic din tabelul periodic al elementelor care face parte din grupa a doua si care are simbolul Mg și numărul atomic 12. Magneziul este al optulea element și al treilea metal după aluminiu și fier ca abundență în scoarța solidă terestră, formând aproximativ 2% din masa acesteia. Magneziul este al treilea ca și componență în sărurile dizolvate în apa mării."
 
-[node name="EmptyElement27" parent="MainGUI/Background/HBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
+[node name="EmptyElement27" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
 layout_mode = 2
 
-[node name="EmptyElement28" parent="MainGUI/Background/HBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
+[node name="EmptyElement28" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
 layout_mode = 2
 
-[node name="EmptyElement29" parent="MainGUI/Background/HBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
+[node name="EmptyElement29" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
 layout_mode = 2
 
-[node name="EmptyElement30" parent="MainGUI/Background/HBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
+[node name="EmptyElement30" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
 layout_mode = 2
 
-[node name="EmptyElement31" parent="MainGUI/Background/HBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
+[node name="EmptyElement31" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
 layout_mode = 2
 
-[node name="EmptyElement32" parent="MainGUI/Background/HBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
+[node name="EmptyElement32" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
 layout_mode = 2
 
-[node name="EmptyElement33" parent="MainGUI/Background/HBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
+[node name="EmptyElement33" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
 layout_mode = 2
 
-[node name="EmptyElement34" parent="MainGUI/Background/HBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
+[node name="EmptyElement34" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
 layout_mode = 2
 
-[node name="EmptyElement35" parent="MainGUI/Background/HBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
+[node name="EmptyElement35" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
 layout_mode = 2
 
-[node name="EmptyElement36" parent="MainGUI/Background/HBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
+[node name="EmptyElement36" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
 layout_mode = 2
 
-[node name="ElementBase13" parent="MainGUI/Background/HBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+[node name="ElementBase13" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
 layout_mode = 2
 tip = "MetalePT"
 nr = "13"
