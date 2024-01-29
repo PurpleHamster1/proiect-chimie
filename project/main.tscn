@@ -1,4 +1,4 @@
-[gd_scene load_steps=18 format=3 uid="uid://bxubmmwnlk8d8"]
+[gd_scene load_steps=41 format=3 uid="uid://bxubmmwnlk8d8"]
 
 [ext_resource type="PackedScene" uid="uid://djqj55iccj6rx" path="res://ElementBase.tscn" id="1_bx3qn"]
 [ext_resource type="Script" path="res://main.gd" id="1_xijjo"]
@@ -141,6 +141,282 @@ corner_radius_bottom_left = 3
 corner_detail = 1
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_cmlkf"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_32u26"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_snq57"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_2mh4g"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_6km3k"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_uqtur"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_msuyi"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_i86mh"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_7q1fx"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_0stkk"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_1x54c"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_6lmcd"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_v0m03"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_jhqqa"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_p3qgb"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ex0ke"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_n3x11"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_3lk7v"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_pjbwt"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_3ias8"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_10ju3"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_r8jbq"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_5p6dp"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_r3qtx"]
 border_width_left = 1
 border_width_top = 1
 border_width_right = 1
@@ -511,7 +787,7 @@ horizontal_alignment = 1
 vertical_alignment = 1
 
 [node name="PeriodicTable" type="Control" parent="MainGUI/Background/HBoxContainer/VBoxContainer"]
-custom_minimum_size = Vector2(1000, 20)
+custom_minimum_size = Vector2(1000, 60)
 layout_mode = 2
 
 [node name="Elements" type="GridContainer" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable"]
@@ -686,6 +962,7 @@ simbol = "O"
 nume = "Oxigen"
 masa = "15.999"
 desc = "	Multe clase majore de molecule organice în organismele vii, cum ar fi proteinele, acizii nucleici, carbohidrații, și grăsimile, conțin oxigen, la fel ca și cei mai importanți compuși organici, care fac parte din cochiliile, dinții și oasele animalelor. Majoritatea masei organismelor vii o reprezintă oxigenul deoarece face parte din apă, principala componentă a formelor de viață (spre exemplu, aproape 2/3 din masa corpului uman). Oxigenul elementar e produs de cianobacterii, alge și plante, fiind folosit în respirația celulară în toate formele complexe de viață."
+onLeft = true
 
 [node name="ElementBase9" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
 layout_mode = 2
@@ -761,7 +1038,8 @@ layout_mode = 2
 
 [node name="ElementBase13" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
 layout_mode = 2
-tip = "MetalePT"
+theme_override_styles/panel = SubResource("StyleBoxFlat_32u26")
+tip = "MetalPT"
 nr = "13"
 simbol = "Al"
 nume = "Aluminiu"
@@ -769,3 +1047,236 @@ masa = "26.982"
 desc = "	Aluminiul este un element chimic, notat cu simbolul Al. Numărul atomic al aluminiului are valoarea 13, iar masa atomică este 26.982. Este un element chimic comun, ocupând poziția a treia, după oxigen și siliciu, ca răspândire terestră, existând în procent de 7.4%. Compușii aluminiului constituie 8.13% din scoarța terestră, fiind întâlniți în substanțele minerale, precum și în lumea vegetală și animală.
 
 	În stare naturală este întâlnit sub forma mineralelor, dintre care amintim silicații, silicoaluminații (feldspat, mică, argile), criolitul (fluoaluminat de sodiu), bauxita, corindonul."
+
+[node name="ElementBase14" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_snq57")
+tip = "Metalo"
+nr = "14"
+simbol = "Si"
+nume = "Siliciu"
+masa = "28.085"
+desc = "	Siliciul este un element chimic cu simbolul chimic Si și numărul atomic 14. Este un element metaloid tetravalent și semiconductor, cristalin, solid, cu luciu metalic albastru-gri. Face parte din grupa 14 a tabelului periodic, aflându-se sub carbon și deasupra elementelor germaniu, staniu, plumb și fleroviu. Este un element relativ nereactiv."
+
+[node name="ElementBase15" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_2mh4g")
+nr = "15"
+simbol = "P"
+nume = "Fosfor"
+masa = "30.974"
+desc = "	Fosforul (din cuvintele grecești „phos”= lumină și „pherein”= a purta) este un element din tabelul periodic având simbolul P și numărul atomic 15. Are mai multe forme alotrope. Fosforul este prezent în membrana celulară sub formă de fosfolipide și reprezintă o parte integrantă a acizilor nucleici din ADN (acidul dezoxiribonucleic), participând în structura acestuia. O altă sarcina care îi revine este cea de substanță-tampon în echilibru acido-bazic sanguin, ajutând la stabilizarea valorii pH în sânge. Conținutul de fosfor din corp este de aproximativ 600–700 g; un procent de aproximativ 90 % din această valoare se regăsește în oase."
+
+[node name="ElementBase16" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_6km3k")
+nr = "16"
+simbol = "S"
+nume = "Sulf"
+masa = "32.06"
+desc = "	Sulful (numit și pucioasă) este elementul chimic cu simbolul S și cu numărul atomic 16. Este un nemetal polivalent abundent în natură. În condiții standard de temperatură și presiune, moleculele de sulf prezintă o aranjare octatomică, având formula S8. Sulful elementar este un solid cristalin, de culoare galbenă. Din punct de vedere chimic, reacționează cu toate elementele, mai puțin cu aurul, platina, iridiul, azotul, telurul, iodul și gazele nobile. Se află în perioada a 3-a, în grupa a VI-a principală, fiind astfel un calcogen."
+onLeft = true
+
+[node name="ElementBase17" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_uqtur")
+tip = "Halo"
+nr = "17"
+simbol = "Cl"
+nume = "Clor"
+masa = "35.45"
+desc = "	Clorul este un element chimic cu numărul atomic 17 și cu simbolul Cl. Este al doilea cel mai ușor halogen, fiind în grupa acestora situat sub fluor și deasupra bromului, astfel încât proprietățile sale sunt oarecum intermediare celor două elemente. Clorul este un gaz de culoare galben-verzui în condiții normale de temperatură. Este un element extrem de reactiv și un agent oxidant puternic: în comparație cu celelalte elemente, are cea mai mare afinitate pentru electroni și a treia cea mai mare electronegativitate (singurii mai electronegativi fiind doar fluorul și oxigenul)."
+onLeft = true
+
+[node name="ElementBase18" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_msuyi")
+tip = "Nobil"
+nr = "18"
+simbol = "Ar"
+nume = "Argon"
+masa = "39.948"
+desc = "	Argonul este un element chimic aflat pe poziția a 18-a în tabelul periodic al elementelor.Are simbolul Ar si numarul atomic 18, Se găsește sub formă gazoasă, reprezentând 0,94% din atmosfera terestră. Pe Pământ este cel mai des întâlnit și folosit gaz nobil."
+onLeft = true
+
+[node name="ElementBase19" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_i86mh")
+tip = "Alca"
+nr = "19"
+simbol = "K"
+nume = "Potasiu"
+masa = "39.098"
+desc = "	Acest element chimic a fost izolat prima dată din potasă. Este un metal alcalin de culoare alb-argintie, maleabil și ductil, care se oxidează ușor în aer. Reacționează violent cu apa, generând suficientă căldură pentru a aprinde hidrogenul gazos eliberat; poate reacționa și cu gheața până la temperatura de -100 °C."
+
+[node name="ElementBase20" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_7q1fx")
+tip = "AlcaP"
+nr = "20"
+simbol = "Ca"
+nume = "Calciu"
+masa = "40.078"
+desc = "	Calciul este elementul chimic cu numărul 20 în tabelul periodic al elementelor. Este un metal alcalino-pământos de culoare gri, cel de-al cincea element din punct de vedere al răspândirii în scoarța terestră. Calciul este de asemenea al cincilea dintre cei mai răspândiți ioni dizolvați în apa mărilor, după sodiu, clor, magneziu și sulfați."
+
+[node name="ElementBase21" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_0stkk")
+tip = "MetalT"
+nr = "21"
+simbol = "Sc"
+nume = "Scandiu"
+masa = "44.956"
+desc = "	Scandiul (simbol Sc) este primul metal tranzițional din sistemul periodic de culoare alb-gălbuie ce formează o multitudine de culori în timp ce se oxidează. A fost descoperit de către Lars Nilson(1840-1899), student al lui Berzelius, în 1876. El a explicat că numele provine de la faptul că elementul face parte din acele minerale care se găsesc doar în Peninsula Scandinavă. Se obține din minereuri, și are diferite utilizări."
+
+[node name="ElementBase22" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_1x54c")
+tip = "MetalT"
+nr = "22"
+simbol = "Ti"
+nume = "Titan"
+masa = "47.867"
+desc = "	Titanul este un element chimic cu simbolul Ti și numărul atomic 22. Are o densitate mică și este un metal de tranziție dur, lucios și rezistent la coroziune (inclusiv față de apa de mare, apa regală și clor), cu o culoare argintie. Este al nouălea cel mai răspândit element, alcătuind 0,6% din scoarța terestră. Titanul poate fi folosit în combinații cu fierul, vanadiul, molibdenul, printre alte elemente, cu scopul de a produce aliaje puternice și ușoare pentru industria aerospațială (motoare cu reacție, proiectile sau nave spațiale), uz militar, procese industriale (chimicale și petro-chimicale, uzine de desalinizare, hârtie), automobile, agro-alimentare, proteze medicale, implanturi ortopedice, instrumente și pile dentare, implanturi dentare, bijuterii, telefoane mobile și alte aplicații."
+
+[node name="ElementBase23" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_6lmcd")
+tip = "MetalT"
+nr = "22"
+simbol = "V"
+nume = "Vandiu"
+masa = "50.942"
+desc = "	Vanadiul este un element chimic cu simbolul V și numărul atomic 23. Este un metal tranzițional moale, ductil, de culoare cenușiu–argintie. Formarea unui strat protector de oxid stabilizează metalul față de oxidare. Vanadiul se găsește în natură numai sub formă de combinații. El este rezistent la acțiunea acizilor (precum acidul sulfuric) și a soluțiilor saline. Oxidarea metalului are loc la peste 660 °C"
+
+[node name="ElementBase24" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_v0m03")
+tip = "MetalT"
+nr = "24"
+simbol = "Cr"
+nume = "Crom"
+masa = "51.996"
+desc = "	Cromul este un element chimic care are simbolul chimic Cr și numărul atomic 24. Este primul element chimic al grupei 6. Are o culoare alb-cenușie și este lucios. Numele său derivă de la cuvântul grecesc chroma, care înseamnă culoare, din cauza faptului că majoritatea compușilor săi sunt intens colorați. Oxidul de crom a fost folosit de către chinezi, încă de acum 2000 de ani, pe timpul dinastiei Qin, pentru a acoperi vârfurile armelor. Cromul în combinație cu alte elemente are un colorit variat, fiind folosit și ca pigment în vopsele sau lacuri."
+
+[node name="ElementBase25" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_jhqqa")
+tip = "MetalT"
+nr = "25"
+simbol = "Mn"
+nume = "Mangan"
+masa = "54.938"
+desc = "	Manganul este un element chimic cu simbolul Mn și numărul atomic 25. Este un metal alb-argintiu, asemănător fierului, care se găsește în stare liberă în natură (deseori în combinație cu fierul) și în mai multe minerale. Manganul liber este un metal mult folosit în industrie, mai ales ca element de aliere. Ionii de mangan au diverse culori și sunt folosiți în industrie ca pigmenți și ca oxidanți. De asemenea, ionii de mangan (II) apar drept cofactori pentru o serie de enzime."
+
+[node name="ElementBase26" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_p3qgb")
+tip = "MetalT"
+nr = "26"
+simbol = "Fe"
+nume = "Fier"
+masa = "55.845"
+desc = "	Fierul este un element chimic metalic, notat cu simbolul Fe (din limba latină: ferrum), ce are numărul atomic 26 și masa atomică 56. Este un metal aflat în prima grupă a metalelor tranziționale. Este elementul chimic cel mai întâlnit pe Terra, formând cea mai mare parte a nucleului acestei planete și este al patrulea element ca abundență în scoarța terestră. Este produs în cantitate mare ca rezultat de fuziune în stelele cu masă mare, unde producerea de nichel-56 (care se dezintegrează în fier) este ultima reacție fuziune nucleară ce este exotermă, devenind ultimul element care se produce înaintea stingerii unei supernove ce duce la reacții ce împrăștie precursorii radionuclizilor fierului în spațiu."
+
+[node name="ElementBase27" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_ex0ke")
+tip = "MetalT"
+nr = "27"
+simbol = "Co"
+nume = "Cobalt"
+masa = "58.933"
+desc = "	Numele acestui metal poate fi pus în relație cu cuvântul german Kobold (spirit rău). Datorită proprietăților sale feromagnetice cobaltul este folosit pentru fabricarea magneților; oxizii cobaltului sunt folosiți la obținerea unor emailuri albastre (albastru de cobalt) pentru ceramică. Oxizii se mai folosesc și la colorarea sticlei în albastru. O curiozitate este că sărurile higroscopice (de exemplu CoC12) sunt albastre în stare anhidră, și de culoare roz în stare hidratată."
+
+[node name="ElementBase28" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_n3x11")
+tip = "MetalT"
+nr = "28"
+simbol = "Ni"
+nume = "Nichel"
+masa = "58,693"
+desc = "	Nichelul (simbol: Ni, număr atomic: 28) este un metal răspândit în diverse substanțe chimice și aliaje, constituind circa 0,008 % din scoarța Pământului. Acest lucru face ca omul să fie încontinuu expus la acest metal. Nichelul este corodat de transpirație, salivă și alte lichide secretate de organism. Incidența alergiei la nichel în populația generală este de circa 30 %, cu o netă preponderență la femei. Sursele de expunere sunt: domestice, profesionale, iatrogene, accidentale și alimentare."
+
+[node name="ElementBase29" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_3lk7v")
+tip = "MetalT"
+nr = "29"
+simbol = "Cu"
+nume = "Curpu"
+masa = "63,546"
+desc = "	Cuprul (numit și aramă) este un element din tabelul periodic având simbolul Cu și numărul atomic 29. Acesta este un metal de culoare roșcată, foarte bun conducător de electricitate și căldură. Cuprul a fost folosit de oameni din cele mai vechi timpuri, arheologii descoperind obiecte din acest metal datând din 8700 î.Hr. A fost unul din primele metale folosite, deoarece cantități mici din el apar în unele locuri în stare liberă. Principalele minereuri ale cuprului sunt: calcozina (sulfura de cupru), calcopirita sau criscolul (ferosulfura de cupru), cupritul (oxidul cupros) și malachitul și azuritul (ambele forme ale carbonatului basic de cupru)."
+
+[node name="ElementBase30" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_pjbwt")
+tip = "MetalT"
+nr = "30"
+simbol = "Zn"
+nume = "Zinc"
+masa = "65,409"
+desc = "	Zincul este un element chimic care are simbolul Zn și numărul atomic 30. Zincul este un metal de culoare albăstruie spre alb, care devine maleabil în jurul a 100°-150 °C. Se obține din minereuri și din compuși, fiind folosit în aliaje cu alte metale pentru protejarea acestora împotriva oxidării (ruginirii)."
+
+[node name="ElementBase31" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_3ias8")
+tip = "MetalPT"
+nr = "31"
+simbol = "Ga"
+nume = "Galiu"
+masa = "69.723"
+desc = "	Galiul este elementul chimic care are simbol chimic Ga și numărul atomic 31. Galiul nu se găsește, în natură, în forma sa elementară, dar se găsește, sub formă de sare de galiu (III), în minereurile de bauxită sau în cele de zinc."
+
+[node name="ElementBase32" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_10ju3")
+tip = "Metalo"
+nr = "32"
+simbol = "Ge"
+nume = "Germaniu"
+masa = "72,59"
+desc = "	Germaniul este un element chimic, notat cu simbolul Ge, al cărui număr atomic este 32. Este un metaloid lucios, dens, de culoare gri, ce posedă proprietăți chimice similare cu staniul și siliciul. Germaniul pur este un semiconductor, având un aspect similar cu siliciul. Germaniul reacționează cu oxigenul, formând numeroși compuși, fiind astfel mult prea reactiv pentru a fi găsit în stare nativă pe Pământ. Principalele minerale ale germaniului sunt germanit, argirodit, renierit si canfieldit, toate fiind foarte rare"
+
+[node name="ElementBase33" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_r8jbq")
+tip = "Metalo"
+nr = "33"
+simbol = "As"
+nume = "Arsen"
+masa = "74,92"
+desc = "	Numele grec \"arsenicon\" (în traducere \"bărbat\"), era atribuit în antichitate unor sulfuri de arsen și acidului arsenicos. Pentru prima dată, Platon și Strabon amintesc de existența și exploatarea arsenului din muntele Sandaracurgium – provincia Pont. Ca element, se pare că a fost preparat pentru prima dată de Albertus Magnus, în anul 1250, din auri-pigment și săpun, și apoi de Paracelsus prin sublimarea sandaracului cu coji de ou. Alchimiștii foloseau arsenul pentru albirea metalelor colorate ca fierul și cuprul. Acestea, frecate cu arseniu, primeau un luciu alb."
+onLeft = true
+
+[node name="ElementBase34" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_5p6dp")
+nr = "34"
+simbol = "Se"
+nume = "Seleniu"
+masa = "78,96"
+desc = "	Seleniul este un element chimic nemetalic cu numărul atomic 34 și simbolul chimic Se. A fost descoperit de către Berzelius în 1817 și studiat mai departe de către alți cercetători ce-l găsesc în roci, seleniul în timp devine unul din importantele minerale care sunt răspunzătoare de o bună funcționalitate a organismului uman, respectiv animal."
+onLeft = true
+
+[node name="ElementBase35" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_r3qtx")
+tip = "Halo"
+nr = "35"
+simbol = "Br"
+nume = "Brom"
+masa = "79,909"
+desc = "	Bromul este un element chimic notat cu simbolul chimic Br. Numărul său atomic este 35 iar masa atomică este de 79,909 u.a.m.. Bromul face parte din grupa halogenilor (grupa a VII-a principală), împreună cu fluorul, clorul, iodul și astatinul. În stare nativă este un element foarte reactiv, reacționând direct cu majoritatea metalelor și cu multe nemetale, dând săruri numite bromuri. De aceea, nu este prezent deloc în stare liberă în atmosferă."
+onLeft = true
+
+[node name="ElementBase36" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+tip = "Nobil"
+nr = "36"
+simbol = "Kr"
+nume = "Kripton"
+masa = "83,798"
+desc = "	Kriptonul (simbol - Kr) este un element chimic monoatomic din grupa gazelor nobile, perioada a 4-a, care ocupă poziția 36 în tabelul periodic al elementelor. Este un element nereactiv, ca și celelalte gaze nobile, formând un singur compus cunoscut, Fluorura de kripton (KrF2). Este un gaz rar, existând în atmosferă, o parte la 670 000. Se obține din distilarea fracționată a aerului lichid, și în stare pură este inodor și incolor. Este ultilizat la tuburile fluorescente și la lumina stroboscopică, în aeroporturi, precum și la lămpile aparatelor foto sau la lasere."
+onLeft = true

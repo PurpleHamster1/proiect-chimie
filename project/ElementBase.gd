@@ -30,10 +30,10 @@ func _ready():
 			test.bg_color = Color.DARK_SLATE_BLUE
 		"MetalT":
 			test.bg_color = Color.GRAY
-		"MetalePT":
+		"MetalPT":
 			test.bg_color = Color.WEB_GRAY
 		"Metalo":
-			test.bg_color = Color.LIGHT_GRAY
+			test.bg_color = Color.LIGHT_BLUE
 		"Nemetal":
 			test.bg_color = Color.LIGHT_GREEN
 		"Halo":
