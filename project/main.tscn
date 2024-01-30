@@ -1,4 +1,4 @@
-[gd_scene load_steps=41 format=3 uid="uid://bxubmmwnlk8d8"]
+[gd_scene load_steps=58 format=3 uid="uid://bxubmmwnlk8d8"]
 
 [ext_resource type="PackedScene" uid="uid://djqj55iccj6rx" path="res://ElementBase.tscn" id="1_bx3qn"]
 [ext_resource type="Script" path="res://main.gd" id="1_xijjo"]
@@ -428,6 +428,210 @@ corner_radius_bottom_right = 3
 corner_radius_bottom_left = 3
 corner_detail = 1
 
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_0m2w5"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_3ph4v"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_walhv"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_afb6r"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_1255q"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_2mlit"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_sgqj3"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_mbtyl"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_7bphr"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_6qnjj"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_u2v8d"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_yrpvd"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ndf34"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_skxmk"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_77yr4"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_vbty0"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_e5hia"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
 [node name="Main" type="Node2D"]
 script = ExtResource("1_xijjo")
 
@@ -787,7 +991,7 @@ horizontal_alignment = 1
 vertical_alignment = 1
 
 [node name="PeriodicTable" type="Control" parent="MainGUI/Background/HBoxContainer/VBoxContainer"]
-custom_minimum_size = Vector2(1000, 60)
+custom_minimum_size = Vector2(1000, 110)
 layout_mode = 2
 
 [node name="Elements" type="GridContainer" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable"]
@@ -1279,4 +1483,189 @@ simbol = "Kr"
 nume = "Kripton"
 masa = "83,798"
 desc = "	Kriptonul (simbol - Kr) este un element chimic monoatomic din grupa gazelor nobile, perioada a 4-a, care ocupă poziția 36 în tabelul periodic al elementelor. Este un element nereactiv, ca și celelalte gaze nobile, formând un singur compus cunoscut, Fluorura de kripton (KrF2). Este un gaz rar, existând în atmosferă, o parte la 670 000. Se obține din distilarea fracționată a aerului lichid, și în stare pură este inodor și incolor. Este ultilizat la tuburile fluorescente și la lumina stroboscopică, în aeroporturi, precum și la lămpile aparatelor foto sau la lasere."
+onLeft = true
+
+[node name="ElementBase37" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_0m2w5")
+tip = "Alca"
+nr = "37"
+simbol = "Rb"
+nume = "Rubidiu"
+masa = "85,467"
+desc = "	Rubidiul este un element chimic notat cu simbolul Rb și care are numărul atomic 37. Rubidiul este un metal alcalin moale, de culoare alb-argintie; în stare elementară este foarte reactiv, cu proprietăți similare altor metale alcaline, precum oxidarea rapidă în aer. Rubidiul natural este un amestec izotopic: 85Rb, singurul izotop stabil, cu o concentrație de 72%. Restul procentelor, de 28% reprezintă izotopul radioactiv 87Rb ce are timpul de înjumătățire de 49 miliarde de ani - mai mult de 3 ori vârsta estimată a Universului."
+
+[node name="ElementBase38" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_3ph4v")
+tip = "AlcaP"
+nr = "38"
+simbol = "Sr"
+nume = "Stronțiu"
+masa = "87,62"
+desc = "	Stronțiul este un element chimic din categoria metalelor alcalino-pămîntoase, care are numărul atomic 38. Simbolul chimic este Sr. Acesta a fost descoperit de către Adair Crawford și William Cruickshank în anul 1790. Denumirea acestuia a fost dată după orașul scoțian Strotian. Stronțiul este un element foarte reactiv de consistență moale de culoare metalică, alb-argintie și galbenă în cazul în care acesta intră în contact cu aerul. Stronțiul se regăsește în natură în celestină și stronțianit. În timp ce stronțiul natural este stabil, izotopul sintetic al acestuia 90Sr este radioactiv, se găsește în deșeurile radioactive și are un timp de înjumătățire de 28,90 ani."
+
+[node name="ElementBase39" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_walhv")
+tip = "MetalT"
+nr = "39"
+simbol = "Y"
+nume = "Ytriu"
+masa = "88,905"
+desc = "	Ytriul este un element chimic notat cu simbolul Y și care are numărul atomic 39. Primul element al blocul d în a 5-a perioadă, ytriul este un metal de tranziție de culoare metalic-argintie, care prezintă caracteristici chimice similare lantanidelor, fiind astfel des clasificat ca un pământ rar. Ytriul este aproape mereu găsit în combinație cu lantanidele în mineralele pământurilor rare, nefiind niciodată găsit în natură ca element liber. Singurul său izotop stabil (89Y) este și singurul său izotop natural."
+
+[node name="ElementBase40" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_afb6r")
+tip = "MetalT"
+nr = "40"
+simbol = "Zr"
+nume = "Zirconiu"
+masa = "91,22"
+desc = "	Zirconiul este folosit mai nou și în stomatologie sub forma de oxid de zirconiu (zirconia), ca cea mai fizionomică opțiune pentru o coroană dentară. Se pune sub porțelan în loc de metal pentru a nu transpare sub porțelan. Se mai folosește și la implantologie tot din același motiv, dar și pentru că are o biocompatibilitate superioară, înlocuind titanul. Zirconia se mai folosește si la fabricarea bijuteriilor."
+
+[node name="ElementBase41" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_1255q")
+tip = "MetalT"
+nr = "41"
+simbol = "Nb"
+nume = "Niobiu"
+masa = "92.906"
+desc = "	Niobiul (cunoscut și sub precedenta denumire de columbiu) este un element chimic notat cu simbolul Nb și numărul atomic 41. Este un metal de tranziție moale, de culoare gri, ductil, fiind găsit des în mineralele piroclor și în columbit, de unde și fosta denumire de „columbiu”. Numele metalului provine din mitologia greacă, fiind numit după Niobe, fiica lui Tantal. Numele reflectă similaritatea ridicată ale caracteristicilor fizice și chimice ale celor două elemente, fapt ce le face greu de distins."
+
+[node name="ElementBase42" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_2mlit")
+tip = "MetalT"
+nr = "42"
+simbol = "Mo"
+nume = "Molibden"
+masa = "95.95"
+desc = "	Molibdenul este un metal tranzițional din grupa 6 aflat în poziția 42 în tabelul periodic al elementelor. Simbolul chimic este Mo. Numele este din latina științifică (așa-numita neo-latină) (Molybdaenum) bazat pe cuvântul din greaca veche Μόλυβδος molybdos care înseamnă plumb, deoarece minereurile sale erau confundate cu cele de plumb."
+
+[node name="ElementBase43" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_sgqj3")
+tip = "MetalT"
+nr = "43"
+simbol = "Tc"
+nume = "Technețiu"
+masa = "98,90"
+desc = "	Technețiul (pronunțat tehnețiu și uneori scris astfel) este elementul chimic cu numărul atomic 43 și simbolul Tc. Este un metal de tranziție radioactiv, cel mai ușor element fără izotopi stabili. Pe Pământ se găsește în cantități extrem de mici, în zăcămintele de uraniu sau molibden; pentru aplicații medicale și științifice technețiul este produs pe cale artificială. Proprietățile technețiului sunt intermediare între cele ale manganului și reniului, și au fost prezise în bună măsură de Dmitri Mendeleev înainte de descoperire."
+
+[node name="ElementBase44" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_mbtyl")
+tip = "MetalT"
+nr = "44"
+simbol = "Ru"
+nume = "Ruteniu"
+masa = "101.07"
+desc = "	Ruteniul este un metal solid sfărâmicios de culoare alb cenușie, care se prezintă sub formă de agregate cristaline tetramere.
+La temperatura camerei își menține suprafața exterioară lucioasă caracteristică metalelor.
+Încălzit în prezența oxigenului la o formă incandescentă, se formează un oxid de rutil toxic și instabil, care devine în prezența luminii explosiv.
+La o temperatură mai joasă de 100 °C ruteniul este stabil în toți acizii anorganici, se dizolvă însă în Na2O2 și NaClO3."
+
+[node name="ElementBase45" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_7bphr")
+tip = "MetalT"
+nr = "45"
+simbol = "Rh"
+nume = "Rodiu"
+masa = "102,90"
+desc = "	Rodiul (din grecescul rhodon (ῥόδον) = roz, pentru că multe săruri de rodiu au o culoare roșie intensă) este un element chimic cu simbolul Rh și numărul atomic 45. Este un metal de tranziție rar, din grupa platinei, de culoare alb-argintie și cu o duritate ridicată. El se găsește în minereurile de platină și se folosește ca element de aliere în aliajele de platină și drept catalizator."
+
+[node name="ElementBase46" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_6qnjj")
+tip = "MetalT"
+nr = "46"
+simbol = "Pd"
+nume = "Paladiu"
+masa = "106,42"
+desc = "	Paladiul este un element chimic cu simbolul Pd și cu numărul atomic 46. Paladiul este un metal rar, strălucitor, de culoare alb-argintiu, descoperit în 1803 de William Hyde Wollaston. Elementul este numit după asteroidul Pallas, care a fost denumit după epitetul zeiței grecești Atena, obținut de aceasta când a omorât-o pe Pallas."
+
+[node name="ElementBase47" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_u2v8d")
+tip = "MetalT"
+nr = "47"
+simbol = "Ag"
+nume = "Argint"
+masa = "107,86"
+desc = "	Argintul este elementul chimic cu numărul atomic 47. Este un metal prețios, care a folosit în cursul istoriei la baterea monedelor și pentru crearea de bijuterii. În prezent, argintul are de asemenea o gamă largă de întrebuințări industriale."
+
+[node name="ElementBase48" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_yrpvd")
+tip = "MetalT"
+nr = "48"
+simbol = "Cd"
+nume = "Cadmiu"
+masa = "112,48"
+desc = "	Cadmiul este elementul chimic cu simbolul Cd și numărul atomic 48. Acest metal alb-strălucitor este asemănător din punct de vedere chimic cu alte două elemente chimice din grupa 12, zincul și mercurul. Concentrația medie a cadmiului în scoarța Pământului este intre 0.1 și 0.5 parți per milion (ppm). A fost descoperit în 1817 simultan de către Stromeyer și Hermann , amândoi din Germania, ca și o impuritate a carbonatului de zinc."
+
+[node name="ElementBase49" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_ndf34")
+tip = "MetalPT"
+nr = "49"
+simbol = "In"
+nume = "Indiu"
+masa = "114.82"
+desc = "	Indiul este elementul chimic din categoria metalelor, notat cu simbolul In și numărul atomic 49. Este cel mai moale metal, care nu face parte din categoria alcalinelor. Are un aspect metalic asemănător cu staniul. Este un metal post-tranzițional, care constituie 0,21 părți per bilion din crusta Pământului. Punctul de topire al indiului este mai înalt decât al sodiului și al galiului, însă mai scăzut decât al litiului și staniului."
+
+[node name="ElementBase50" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_skxmk")
+tip = "MetalPT"
+nr = "50"
+simbol = "Sn"
+nume = "Staniu"
+masa = "118.71"
+desc = "	Prima menționare a acestui metal, care, după cum credeau oamenii înainte, avea chiar și unele proprietăți magice, poate fi găsită în textele biblice. Staniul a jucat un rol decisiv în îmbunătățirea vieții în timpul epocii bronzului. În acel moment, cel mai durabil aliaj de metal pe care îl poseda omul era bronzul. Bronzul se poate obține prin adăugarea staniului în cupru. Timp de câteva secole, obiectele se făceau din acest material, de la unelte la bijuterii."
+
+[node name="ElementBase51" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_77yr4")
+tip = "Metalo"
+nr = "51"
+simbol = "Sb"
+nume = "Stibiu"
+masa = "121,75"
+desc = "	Stibiul (antimoniul) este un metaloid alb-argintiu, cu numărul atomic 51, având simbolul „Sb”. Metaloidul este întrebuințat pentru realizarea unor aliaje în poligrafie, în industria cauciucului și în tehnică. Alături de zăcămintele de mercur, în mod frecvent, se găsește stibina din care se extrage stibiul sau antimoniul. Aceasta se folosește în aliajele pentru izolarea cablurilor, la fabricarea unor piese rezistente la acizi etc."
+
+[node name="ElementBase52" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_vbty0")
+tip = "Metalo"
+nr = "52"
+simbol = "Te"
+nume = "Telur"
+masa = "127,6"
+desc = "	Telurul a fost descoperit în 1782 d.Hr. în minereul de aur de la minele din Zlatna, pe teritoriul actual al României (atunci în Imperiul habsburgic), de către mineralogul austriac Franz-Joseph Müller von Reichenstein. Telurul a fost studiat însă abia în 1798, de către chimistul german Martin Heinrich Klaproth, același care a descoperit uraniul, zirconiul și ceriul."
+onLeft = true
+
+[node name="ElementBase53" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_e5hia")
+tip = "Halo"
+nr = "53"
+simbol = "I"
+nume = "Iod"
+masa = "126,90"
+desc = "	Iodul este al patrulea element din grupa halogenilor, posedă o reactivitate slabă și o electronegativitate relativ mare, dar mai mică decât a celorlalți halogeni. Ca substanță elementară, la fel ca toți halogenii, iodul prezintă moleculă diatomică (I2)."
+onLeft = true
+
+[node name="ElementBase54" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+tip = "Nobil"
+nr = "54"
+simbol = "Xe"
+nume = "Xenon"
+masa = "131.29"
+desc = "	Xenonul este un element chimic cu simbolul chimic Xe și cu numărul atomic egal cu 54. Este un gaz nobil, incolor, greu, fiind găsit în atmosfera Terrei în cantități mici. Deși, ca toate gazele nobile, xenonul este inert din punct de vedere chimic, între atomii acestuia și atomii altor elemente chimice pot exista reacții chimice, cum ar fi reacția de formare a hexafluoroplatinatul de xenon; acesta a fost primul compus sintetizat al unui gaz nobil."
 onLeft = true
