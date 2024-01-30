@@ -58,7 +58,7 @@ func _process(delta):
 
 
 func _on_mouse_entered():
-	if tip != "Empty":
+	if tip != "Empty" and nr != "0":
 		mouseHover = true
 		scale = Vector2(1.05, 1.05)
 		await get_tree().create_timer(0.5).timeout
@@ -66,7 +66,7 @@ func _on_mouse_entered():
 			popUp.visible = true
 
 func _on_mouse_exited():
-	if tip != "Empty":
+	if tip != "Empty" and nr != "0":
 		scale = Vector2(1,1)
 		mouseHover = false
 		popUp.visible = false

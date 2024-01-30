@@ -1,10 +1,11 @@
-[gd_scene load_steps=58 format=3 uid="uid://bxubmmwnlk8d8"]
+[gd_scene load_steps=125 format=3 uid="uid://bxubmmwnlk8d8"]
 
 [ext_resource type="PackedScene" uid="uid://djqj55iccj6rx" path="res://ElementBase.tscn" id="1_bx3qn"]
 [ext_resource type="Script" path="res://main.gd" id="1_xijjo"]
 [ext_resource type="PackedScene" uid="uid://0xfuoff1m8j7" path="res://Elements/empty_element.tscn" id="3_qrld7"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_yv2sm"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_qo5f6"]
 
@@ -428,6 +429,18 @@ corner_radius_bottom_right = 3
 corner_radius_bottom_left = 3
 corner_detail = 1
 
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_x1diw"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_0m2w5"]
 border_width_left = 1
 border_width_top = 1
@@ -632,6 +645,780 @@ corner_radius_bottom_right = 3
 corner_radius_bottom_left = 3
 corner_detail = 1
 
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_h6xes"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_o8gqj"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_i5axt"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_k5lyb"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_lldyl"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_7a8rq"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_g4j1n"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_2dsnq"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ootw2"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_kt7d3"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_l3ojk"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_mwtsj"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_vjmyx"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_4lv65"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_455a8"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_q4x77"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ebnf7"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_2028g"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_vn5u5"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_864fu"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_j7d13"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_tqi8u"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_hogmo"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_drtgc"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ib2f7"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_cbim7"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_4alwm"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_njshy"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_tfn2c"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ne50l"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_s6iki"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_hi547"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_oyde5"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_12ktt"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_louac"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_dorq3"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_6k8df"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_b7ksu"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_2yh6o"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ahbl4"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_qr5nl"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_k2idn"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_aq5ur"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_yqs3v"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_p8ake"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_pgy1f"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_gva3y"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_o3jpw"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_d20em"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_4hmwb"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_sl7y0"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_pxwkg"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ttsoc"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_qxpsi"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_1a54n"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_lslqu"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_s8pp2"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_5m1vx"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_j5822"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_fm07e"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_js277"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_gseei"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_r5ipl"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_jkvvm"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_670vr"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_22wi7"]
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 1
+
 [node name="Main" type="Node2D"]
 script = ExtResource("1_xijjo")
 
@@ -654,7 +1441,7 @@ grow_horizontal = 2
 grow_vertical = 2
 
 [node name="Panel" type="Panel" parent="MainGUI/Background/HBoxContainer"]
-custom_minimum_size = Vector2(250, 0)
+custom_minimum_size = Vector2(50, 0)
 layout_mode = 2
 theme_override_styles/panel = SubResource("StyleBoxFlat_yv2sm")
 
@@ -991,7 +1778,7 @@ horizontal_alignment = 1
 vertical_alignment = 1
 
 [node name="PeriodicTable" type="Control" parent="MainGUI/Background/HBoxContainer/VBoxContainer"]
-custom_minimum_size = Vector2(1000, 110)
+custom_minimum_size = Vector2(1000, 350)
 layout_mode = 2
 
 [node name="Elements" type="GridContainer" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable"]
@@ -1477,6 +2264,7 @@ onLeft = true
 
 [node name="ElementBase36" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
 layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_x1diw")
 tip = "Nobil"
 nr = "36"
 simbol = "Kr"
@@ -1662,10 +2450,701 @@ onLeft = true
 
 [node name="ElementBase54" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
 layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_h6xes")
 tip = "Nobil"
 nr = "54"
 simbol = "Xe"
 nume = "Xenon"
 masa = "131.29"
 desc = "	Xenonul este un element chimic cu simbolul chimic Xe și cu numărul atomic egal cu 54. Este un gaz nobil, incolor, greu, fiind găsit în atmosfera Terrei în cantități mici. Deși, ca toate gazele nobile, xenonul este inert din punct de vedere chimic, între atomii acestuia și atomii altor elemente chimice pot exista reacții chimice, cum ar fi reacția de formare a hexafluoroplatinatul de xenon; acesta a fost primul compus sintetizat al unui gaz nobil."
+onLeft = true
+
+[node name="ElementBase55" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_o8gqj")
+tip = "Alca"
+nr = "55"
+simbol = "Cs"
+nume = "Cesiu"
+masa = "132,94"
+desc = "	Cesiul este un element chimic din grupa metalelor alcaline cu simbolul Cs și cu numărul atomic 55. Din punct de vedere fizic, metalul este moale, de culoare argintiu-aurie, cu un punct de topire de 28 °C (82 °F), aceasta făcându-l unul dintre singurele cinci metale care se pot afla în stare lichidă sau într-o stare de trecere dintre starea lichidă și cea solidă la temperatura camerei."
+
+[node name="ElementBase56" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_i5axt")
+tip = "AlcaP"
+nr = "56"
+simbol = "Ba"
+nume = "Bariu"
+masa = "137.33"
+desc = "	Bariul (din gr. βαρύς: \"greu\", din cauza densității mineralului barita ) este un element chimic cu simbolul Ba și numărul atomic 56. În tabelul periodic al elementelor se găsește în perioada a șasea și grupa a II-a principală, fiind astfel un metal alcalino-pământos. A fost identificat pentru prima oară de către Carl Wilhelm Scheele. Bariu este în stare liberă metalic, strălucitor și de culoare alb-argintie. În natură nu se găsește, în stare liberă, din cauza reactivității sale ridicate. Bariul metalic este ușor inflamabil. Combinațiile sale solubile sunt toxice."
+
+[node name="EmptyElement37" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_k5lyb")
+tip = "Lant"
+nr = "0"
+
+[node name="ElementBase57" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_lldyl")
+tip = "MetalT"
+nr = "72"
+simbol = "Hf"
+nume = "Hafniu"
+masa = "178,49"
+desc = "	Hafniul este un element chimic din categoria metalelor. Are numărul atomic 72 și simbolul chimic Hf.
+
+	Este un metal alb-argintiu similar titaniului, cu o mare capacitate de a absorbi neutroni. A fost descoperit de George de Hevesy și Dirk Coster în 1922."
+
+[node name="ElementBase58" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_7a8rq")
+tip = "MetalT"
+nr = "73"
+simbol = "Ta"
+nume = "Tantal"
+masa = "180.95"
+desc = "	Tantalul este elementul cu numărul 73 în tabelul periodic al elementelor si se notează Ta. A fost descoperit de către Anders Gustaf Ekeberg în 1802 în două minerale diferite, respectiv tantalitul din Kimito (Finlanda) și ytrotantalitul din Ytterby (Suedia). Este folosit la separarea bornelor (+), respectiv (-) ale unor pile, având ca scop producerea de curent continuu. Proprietăți similare au peliculele de aluminiu sau acid sulfuric, dar acestea ocupă suprafețe mult mai mari, devenind ineficiente."
+
+[node name="ElementBase59" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_g4j1n")
+tip = "MetalT"
+nr = "74"
+simbol = "W"
+nume = "Wolfram"
+masa = "183,84"
+desc = "	Wolframul (numit și tungsten) este un element chimic din grupa metalelor situat în poziția 74 în tabelul periodic al elementelor. Simbolul chimic este \"W\". Wolframul este un metal cu luciu alb-argintiu, ce cristalizează în sistemul cubic cu volum centrat fără a mai avea și alte forme alotropice. Foarte dur, wolframul nu este casant ci devine ductil în stare pură păstrându-și în același timp rezistența."
+
+[node name="ElementBase60" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_2dsnq")
+tip = "MetalT"
+nr = "75"
+simbol = "Re"
+nume = "Reniu"
+masa = "186,2"
+desc = "	Reniu (simbol: Re; latinescul Rhenus = \"Rin\", fluviul) este elementul chimic cu numărul atomic 75. Este un metal foarte rar și a fost descoperit de Walter Noddack, Ida Tacke și Otto Berg în 1925 d.Hr.
+"
+
+[node name="ElementBase61" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_ootw2")
+tip = "MetalT"
+nr = "76"
+simbol = "Os"
+nume = "Osmiu"
+masa = "190,23"
+desc = "	Osmiu (Os; provine din ὀσμή (osmḗ) din greaca veche, ceea ce înseamnă 'miros') este un element chimic cu caracter metalic din grupa a VIII-a, număr atomic 76, masa atomică 190,2; structura straturilor electronice exterioare 5d66s2, valența II, III, IV, VI, VIII. În natură se găsește aliat cu iridiul."
+
+[node name="ElementBase62" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_kt7d3")
+tip = "MetalT"
+nr = "77"
+simbol = "Ir"
+nume = "Iridiu"
+masa = "192,21"
+desc = "	Iridiul (simbol chimic: Ir; numele provine de la \"Iris\", zeiță greacă), element chimic cu caracter metalic, din grupa a VIII-a, număr atomic 77, masă atomică 192,2; configurația învelișului electronic exterior 5d76s2, valența, II, III, IV, VI. În natură se găsește împreună cu alte metale platinice."
+
+[node name="ElementBase63" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_l3ojk")
+tip = "MetalT"
+nr = "78"
+simbol = "Pt"
+nume = "Platina"
+masa = "195.08"
+desc = "	Platina este un element chimic din grupa metalelor platinice, aflat în poziția 78 în tabelul periodic al elementelor.
+
+	Platina este un element ce face parte din grupa metalelor platinice împreună cu paladiu (unul din cele mai scumpe metale, fiind de aproximativ 1,5 ori mai scump decât aurul). Plutoniul este bineînțeles mult mai scump, dar nu poate fi cumpărat pe piața liberă."
+
+[node name="ElementBase64" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_mwtsj")
+tip = "MetalT"
+nr = "79"
+simbol = "Au"
+nume = "Aur"
+masa = "196,96"
+desc = "	Aurul este elementul chimic din tabelul periodic care are simbolul Au și numărul atomic 79. Se utilizează aliat cu cuprul sau argintul, pentru fabricarea de podoabe, obiecte de artă, monede etc. Datorită proprietăților sale este considerat (alături de argint) singura formă reală de bani."
+
+[node name="ElementBase65" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_vjmyx")
+tip = "MetalT"
+nr = "80"
+simbol = "Hg"
+nume = "Mercur"
+masa = "200,59"
+desc = "	Mercurul (υδράργυρος, greacă Hydrargyros, latină „argentum vivum”, „vif argent”, „argento vivo” sau argint viu) este un element chimic reprezentat prin simbolul Hg și care are numărul atomic 80. De asemenea, mercurul reprezintă unul din cele 6 elemente care sunt lichide la o presiune și temperatură apropiată de cea a camerei.Mercurul este și singurul metal lichid."
+
+[node name="ElementBase66" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+tip = "MetalPT"
+nr = "81"
+simbol = "Ti"
+nume = "Taliu"
+masa = "204,38"
+desc = "	Taliul este un metal moale, alb-albăstrui, cu diferite întrebuințări. Numele vine de la grecescul thallein care înseamnă verde, pentru că spectrul său are o linie alb-verzuie. A fost descoperit în 1861.Sub formă de sulfat de taliu (fără miros și gust), amestecat cu amidon, zahăr, glicerină și apă și pus la locuri potrivite, este o otravă mortală pentru șobolani."
+
+[node name="ElementBase67" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_4lv65")
+tip = "MetalPT"
+nr = "82"
+simbol = "Pb"
+nume = "Plumb"
+masa = "207,2"
+desc = "	Plumbul este un metal greu, de culoare gri-argintie cu densitatea foarte mare. Datorită densității ridicate, plumbul și-a găsit utilizarea la protecția contra radiației ionizante. De asemenea, plumbul este folosit la fabricarea de greutăți cu volum mic dar cu mase mari. Acest metal este toxic pentru organismul uman, intoxicația numindu-se saturnism."
+
+[node name="ElementBase68" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_455a8")
+tip = "MetalPT"
+nr = "83"
+simbol = "Bi"
+nume = "Bismut"
+masa = "208,94"
+desc = "	Etimologia \"bismut\"-ului e neclară. Numele probabil provine de la traducerea din sec. al XVI-lea din germană în neolatină a termenilor weiße Masse ori Wismuth, ceea ce semnifică 'greutate albă', transmițându-se ca bisemutum ori bisemutium."
+
+[node name="ElementBase69" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_q4x77")
+tip = "Metalo"
+nr = "84"
+simbol = "Po"
+nume = "Poloniu"
+masa = "209,98"
+desc = "	Poloniul este elementul chimic cu numărul atomic 84 în tabelul periodic al elementelor. Simbolul chimic este Po. Este un element radioactiv, emițând radiații alfa."
+onLeft = true
+
+[node name="ElementBase70" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_ebnf7")
+tip = "Halo"
+nr = "85"
+simbol = "At"
+nume = "Astatin"
+masa = "210"
+desc = "	Astatinul este un element chimic radioactiv din grupul halogenilor, produs al unor reacții nucleare. Fiind obținut, până în prezent, numai în cantități foarte mici, proprietățile sale nu sunt încă bine cunoscute. Se știe că se aseamănă mai mult cu iodul. Este cel mai rar element de pe Terra. Acesta se găsește numai în scoarța terestră în cantități foarte mici (69 mg)"
+onLeft = true
+
+[node name="ElementBase71" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_2028g")
+tip = "Nobil"
+nr = "86"
+simbol = "Rn"
+nume = "Radon"
+masa = "222"
+desc = "	Radonul este un gaz radioactiv provenit din dezintegrarea radiului, cel din urmă provenind din seria de dezintegrare a uraniului. Este prezent în anumite soluri și poate fi transportat prin intermediul mediilor poroase, în special prin fenomenul de convecție."
+onLeft = true
+
+[node name="ElementBase72" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_vn5u5")
+tip = "Alca"
+nr = "87"
+simbol = "Fr"
+nume = "Franciu"
+masa = "223"
+desc = "	Franciul este un element chimic cu simbolul Fr și numărul atomic 87. În trecut era cunoscut ca eka-cesiu și actiniu K.[note 1] E unul din cele două elemente cel mai puțin electronegative, celălalt fiind cesiul. Franciul este un metal foarte radioactiv ce se dezintegrează în astatin, radiu și radon. Fiind un metal alcalin, are valența unu."
+
+[node name="ElementBase73" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_864fu")
+tip = "AlcaP"
+nr = "88"
+simbol = "Ra"
+nume = "Radiu"
+masa = "226"
+desc = "	Radiul este al 88-lea element din sistemul periodic al elementelor, având simbol chimic Ra. Radiul în stare pură este alb argintiu, dar datorită reactivității sale ridicate, se oxidează rapid devenind negru cu irizații colorate. Toți izotopii de radiu sunt radioactivi, cel mai stabil fiind 226Ra, acesta având timp de înjumătățire de 1601 ani;"
+
+[node name="EmptyElement38" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_j7d13")
+tip = "Act"
+nr = "0"
+
+[node name="ElementBase74" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_tqi8u")
+tip = "MetalT"
+nr = "104"
+simbol = "Rf"
+nume = "Rutherfordiu"
+masa = "267"
+desc = "	Rutherfordiu este elementul chimic cu numărul atomic 104 și simbol chimic Rf. Prima oară rutherfordiul a fost obținut la Institutul Unificat pentru Cercetări Nucleare de la Dubna, U.R.S.S.. Inițial, a fost numit kurceatoviu, în cinstea savantului rus Igor Kurceatov (1903-1960)."
+
+[node name="ElementBase75" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_hogmo")
+tip = "MetalT"
+nr = "105"
+simbol = "Db"
+nume = "Dubniu"
+masa = "262"
+desc = "	Dubniu este elementul chimic cu numărul atomic 105 și simbol chimic Db. Acest element chimic a fost denumit după orașul Dubna, Rusia, locul unde a fost produs prima oară. Este un element chimic sintetic și radioactiv; cel mai stabil izotop al său (268Db) are timp de înjumătățire de aproximativ 28 ore."
+
+[node name="ElementBase76" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_drtgc")
+tip = "MetalT"
+nr = "106"
+simbol = "Sg"
+nume = "Seaborgiu"
+masa = "269"
+desc = "	Seaborgiu este un elementul chimic cu numărul atomic 106 și simbol chimic Sg. Este un metal radioactiv și artificial. Cel mai stabil izotop (269Sg) al său are timp de înjumătățire de 2,1 minute. Este elementul omolog wolframului, molibdenului și cromului și aparținând astfel grupei a 6-a a sistemului periodic al elementelor."
+
+[node name="ElementBase77" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_ib2f7")
+tip = "MetalT"
+nr = "107"
+simbol = "Bh"
+nume = "Bohriu"
+masa = "270"
+desc = "	Bohriu este elementul chimic cu numărul atomic 107 și simbol chimic Bh. Este un element chimic radioactiv și este artificial. A fost descoperit de o echipă de cercetători din Germania, condusă de Peter Armbruster și Gottfried Münzenberg în 1981. El a fost denumit în cinstea fizicianului danez Niels Bohr."
+
+[node name="ElementBase78" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_cbim7")
+tip = "MetalT"
+nr = "109"
+simbol = "Hs"
+nume = "Hassiu"
+masa = "270"
+desc = "Hassiu este un element chimic cu numărul atomic 108 și simbol chimic Hs. Numele de hassiu provine de la landul german Hessa. A fost descoperit în Germania la ”Societatea pentru Cercetarea Ionilor Grei” (Gesellschaft für Schwerionenforschung sau GSI) în 1984."
+
+[node name="ElementBase79" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_4alwm")
+tip = "MetalT"
+nr = "109"
+simbol = "Mt"
+nume = "Meitneriu"
+masa = "278"
+desc = "	Meitneriu este element chimic cu numărul atomic 109 și simbol Mt. Este un metal tranzițional artificial, puternic radioactiv. A fost descoperit de cercetătorii de la GSI Helmholtz Centre for Heavy Ion Research din apropierea orașului german Darmstadt în 1982. Acest element chimic a fost denumit în onoarea fizicienei austriece Lise Meitner."
+
+[node name="ElementBase80" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_njshy")
+tip = "MetalT"
+nr = "110"
+simbol = "Ds"
+nume = "Darmstadtiu"
+masa = "281"
+desc = "	Darmstadtiul (simbol Ds), cunoscut anterior sub numele de ununnilium, este un element chimic cu numărul atomic 110, descoperit în 1994 de Societatea pentru Cercetarea Ionilor Grei (elementul e numit după orașul în care își are sediul această societate)."
+
+[node name="ElementBase81" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_tfn2c")
+tip = "MetalT"
+nr = "111"
+simbol = "Rg"
+nume = "Roentgeniu"
+masa = "282"
+desc = "	Roentgeniul (Röntgenium) a fost creat în laborator în 1994 de către Gesellschaft für Schwerionenforschung (GSI) în Darmstadt, Germania, când a bombardat bismut-209 cu nichel-60 si a fost numit dupa savantul care a descoperit radiatia X."
+
+[node name="ElementBase82" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_ne50l")
+tip = "MetalT"
+nr = "112"
+simbol = "Cn"
+nume = "Coperniciu"
+masa = "287"
+desc = "	Coperniciu (denumite învechită ununbiu) este un element chimic cu simbolul Cn și numărul atomic 112. Este un element chimic sintetic și extrem de radioactiv, ce poate fi creat doar în laboratoare specializate în reacții nucleare. Cel mai stabil izotop, coperniciu-285, are un timp de înjumătățire de doar 29 sec., dar este posibil ca acest izotop de coperniciu să aibă un izomer cu timp de înjumătățire mai lung, 8,9 min."
+
+[node name="ElementBase83" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_s6iki")
+tip = "MetalPT"
+nr = "113"
+simbol = "Nh"
+nume = "Nihoniu"
+masa = "286"
+desc = "	Nihoniu este un element chimic cu simbolul Nh și numărul atomic 113. Acesta a fost detectat pentru prima dată în anul 2003 prin dezintegrarea atomului de moscoviu și a fost sintetizat în anul 2006."
+
+[node name="ElementBase84" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_hi547")
+tip = "MetalPT"
+nr = "114"
+simbol = "Fl"
+nume = "Fleroviu"
+masa = "289"
+desc = "	Fleroviul este un element chimic radioactiv cu numărul atomic 114, și având simbolul chimic Fl. În ianuarie 1999, cercetătorii de la Laboratorul Național Lawrence Berkeley, din cadrul Universității California, SUA, și de la Institutul Unificat de Cercetări Nucleare din Dubna, Rusia au anunțat crearea elementului 114."
+
+[node name="ElementBase85" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_oyde5")
+tip = "MetalPT"
+nr = "115"
+simbol = "Mc"
+nume = "Moscoviu"
+masa = "288"
+desc = "	Moscoviu este numele elementului chimic, sintetic și supergreu, cu numărul atomic 115. Este un element chimic radioactiv. Cel mai stabil izotop al acestui element este 289Mc, având timp de înjumătățire de 220 milisecunde."
+
+[node name="ElementBase86" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_12ktt")
+tip = "MetalPT"
+nr = "116"
+simbol = "Lv"
+nume = "Livermoriu"
+masa = "293"
+desc = "	Livermoriu este numele dat elementului cu număr atomic 116. Existența acestui element a fost demonstrată în 1999 în Berkeley, California."
+onLeft = true
+
+[node name="ElementBase87" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_louac")
+tip = "Halo"
+nr = "117"
+simbol = "Ts"
+nume = "Tennessin"
+masa = "294"
+desc = "	Tennessin (numele anterior, provizoriu, fiind ununseptiu) este numele dat elementului cu număr atomic 117. Un grup de fizicieni din Rusia și Statele Unite, condus de academicianul Iuri Oganesian de la Institutul Unificat de Cercetări Nucleare din Dubna, a sintetizat pentru prima dată în istorie cel de-al 117-lea element al Sistemului periodic al elementelor chimice – tabelul lui Mendeleev."
+onLeft = true
+
+[node name="ElementBase88" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_dorq3")
+tip = "Nobil"
+nr = "118"
+simbol = "Og"
+nume = "Oganesson"
+masa = "294"
+desc = "	Oganessonul este numele definitiv al elementului supergreu sintetic cu numărul atomic 118; simbolul chimic corespunzător este Og și a fost numit în onoarea savantului rus Iuri Țolacovici Oganesian."
+onLeft = true
+
+[node name="EmptyElement39" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
+layout_mode = 2
+
+[node name="EmptyElement40" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
+layout_mode = 2
+
+[node name="EmptyElement41" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
+layout_mode = 2
+
+[node name="ElementBase89" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_6k8df")
+tip = "Lant"
+nr = "57"
+simbol = "La"
+nume = "Lantan"
+masa = "138,90"
+desc = "	Lantanul este un element chimic din tabelul periodic, notat cu simbolul La, care are numărul atomic 57.
+
+	Lantan a dat denumirea seriei lantanidelor, un grup de 15 elemente asemănătoare, între lantan și lutețiu, care fac parte din seria pământurilor rare. Numele său provine din termenul grecesc „lanthanein”, care înseamnă „a ascunde”: lantan a rămas mult timp ascuns în oxidul de ceriu."
+
+[node name="ElementBase90" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_b7ksu")
+tip = "Lant"
+nr = "58"
+simbol = "Ce"
+nume = "Ceriu"
+masa = "140,11"
+desc = "	Ceriul este un element metalic argintiu, aparținând grupului lantanidelor. Se folosește în aliaje de pământuri rare. Seamănă cu fierul la culoare, dar este moale, precum și maleabil și ductil. La contactul cu aerul își pierde luciul. Doar europiul este mai reactiv decât ceriul, dintre pământurile rare. Soluțiile alcaline și acizii diluați și concentrați ataca rapid metalul. În stare pură prezintă o probabilitate ridicată de a lua foc dacă este frecat cu un cuțit. Ceriul se oxidează lent în apă rece și foarte rapid în apă caldă."
+
+[node name="ElementBase91" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_2yh6o")
+tip = "Lant"
+nr = "59"
+simbol = "Pr"
+nume = "Praseodim"
+masa = "140,90"
+desc = "	Praseodim (simbol Pr) este elementul chimic, din familia pământurilor rare, cu numărul atomic 59. A fost descoperit de Carl Auer von Welsbach în 1895. Cei mai răspândiți compuși sunt sulfatul și clorura de praseodim."
+
+[node name="ElementBase92" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_ahbl4")
+tip = "Lant"
+nr = "60"
+simbol = "Nd"
+nume = "Neodim"
+masa = "144.24"
+desc = "	Numele acestui element vine de la cuvintele grecești νέος, transliterat: nêos, „nou” și δίδυμος, transliterat: dîdymos, „geamăn”. Într-adevăr, chimiștii au crezut mult timp că amestecul de oxid de praseodim-neodim era un corp simplu, până când Carl Auer von Welsbach le-a separat în 1895."
+
+[node name="ElementBase93" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_qr5nl")
+tip = "Lant"
+nr = "61"
+simbol = "Pm"
+nume = "Promețiu"
+masa = "146,91"
+desc = "`Promețiu (simbol Pm) este elementul chimic cu numărul atomic 61. A fost descoperit de Jacob A. Marinsky Lawrence E. Glendenin în 1945. Este cel mai rar element din clasa lantanidelor, deoarece nu poate fi găsit în natură."
+
+[node name="ElementBase94" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_k2idn")
+tip = "Lant"
+nr = "62"
+simbol = "Sm"
+nume = "Samariu"
+masa = "150,36"
+desc = "	Samariu (simbol Sm) este elementul chimic cu numărul atomic 62. Este un metal destul de tare și argintiu care se oxidează rapid în aer. Fiind un membru obișnuit al seriei lantanidelor, samariul are de obicei starea de oxidare +3. Sunt cunoscuți, de asemenea, și compuși de samariu divalent, cei mai notabili dintre ei fiind monoxidul de samariu SmO, monocalcogenii de samariu SmS, SmSe și SmTe, precum și iodura de samariu (II). Cel din urmă este un agent reducător în sinteza chimică. Samariul nu are niciun rol biologic semnificativ, fiind doar puțin toxic."
+
+[node name="ElementBase95" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_aq5ur")
+tip = "Lant"
+nr = "63"
+simbol = "Eu"
+nume = "Europiu"
+masa = "151,96"
+desc = "	Europiu (simbol Eu) este elementul chimic cu numărul atomic 63. A fost descoperit de Eugène-Anatole Demarçay în 1901."
+
+[node name="ElementBase96" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_yqs3v")
+tip = "Lant"
+nr = "64"
+simbol = "Gd"
+nume = "Gadoliniu"
+masa = "157,25"
+desc = "	Gadoliniu (simbol Gd) este elementul chimic cu numărul atomic 64 în Tabelul periodic al elementelor, numit și Tabelul lui Mendeleev. A fost descoperit prin spectroscopie în 1880 de Jean Charles Galissard de Marignac - posibil, analizând mineralul gadolinită și care i-a dat numele după chimistul finlandez Johan Gadolin."
+
+[node name="ElementBase97" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_p8ake")
+tip = "Lant"
+nr = "65"
+simbol = "Tb"
+nume = "Terbiu"
+masa = "158,92"
+desc = "Terbiu (simbol Tb) este elementul chimic cu numărul atomic 65. A fost descoperit de Carl Gustaf Mosander în 1843."
+
+[node name="ElementBase98" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_pgy1f")
+tip = "Lant"
+nr = "66"
+simbol = "Dy"
+nume = "Disprosiu"
+masa = "162.5"
+desc = "	Disprosiu (simbol Dy) este elementul chimic cu numărul atomic 66. A fost descoperit de Paul Emile Lecoq de Boisbaudran în 1886."
+
+[node name="ElementBase99" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_gva3y")
+tip = "Lant"
+nr = "67"
+simbol = "Ho"
+nume = "Holomiu"
+masa = "164,93"
+desc = "	Holmiu (simbol Ho) este elementul chimic cu numărul atomic 67. A fost descoperit de Soret în 1878."
+
+[node name="ElementBase100" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_o3jpw")
+tip = "Lant"
+nr = "68"
+simbol = "Er"
+nume = "Erbiu"
+masa = "167,25"
+desc = "	Erbiu (simbol Er) este elementul chimic cu numărul atomic 68. A fost descoperit de Mosander în 1842. Când a fost izolat pentru prima dată, erbiul părea a fi un metal solid de culoare alb-argintie; el apare în combinații chimice cu alte elemente de pe Pământ. Însă, el este un element chimic rar, ce poate fi găsit în asociație cu alte elemente în mineralul numit gadolinit, mai ales din cel care provine din zona Ytterby, din Suedia."
+
+[node name="ElementBase101" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_d20em")
+tip = "Lant"
+nr = "69"
+simbol = "Tm"
+nume = "Tuliu"
+masa = "168,93"
+desc = "	Tuliu (simbol Tm) este elementul chimic cu numărul atomic 69. Tuliul este un metal din grupa pământurilor rare. Ca și alte lantanide, este maleabil și ductil la temperatura ambiantă. Se oxidează puțin în aerul uscat."
+onLeft = true
+
+[node name="ElementBase102" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_4hmwb")
+tip = "Lant"
+nr = "70"
+simbol = "Yb"
+nume = "Yterbiu"
+masa = "173,04"
+desc = "	Yterbiul este un element chimic din tabelul periodic care are simbolul Yb și numărul atomic 70. Din punct de vedere fizic este o substanță metalică moale, de culoare argintie; yterbiul este un pământ rar din seria lantanidelor și în natură este răspândit sub forma unor compuși în compoziția unor minerale."
+onLeft = true
+
+[node name="ElementBase103" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_sl7y0")
+tip = "Lant"
+nr = "71"
+simbol = "Lu"
+nume = "Lutețiu"
+masa = "174.97"
+desc = "	Lutețiul este un element chimic cu simbolul Lu și cu numărul atomic 71. Este ultimul element din seria lantanidelor, care, împreună cu contracția lantanidelor, explică câteva proprietăți importante ale lutețiului, astfel el este cel mai dur și mai dens lantanid. Spre deosebire de alte lantanide, care se află în blocul f al Sistemului Periodic al elementelor."
+onLeft = true
+
+[node name="EmptyElement42" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
+layout_mode = 2
+
+[node name="EmptyElement43" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
+layout_mode = 2
+
+[node name="EmptyElement44" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
+layout_mode = 2
+
+[node name="ElementBase104" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_pxwkg")
+tip = "Act"
+nr = "89"
+simbol = "Ac"
+nume = "Actiniu"
+masa = "227"
+desc = "	Actiniul este un element chimic radioactiv, notat cu simbolul Ac, descoperit în anul 1899 de către chimistul André-Louis Debierne având numărul atomic 89, iar masa atomică este de 227,0278 uam. A fost primul element radioactiv care a fost izolat, deși poloniul, radiul și radonul erau observate înainte, însă neizolate până în anul 1902."
+
+[node name="ElementBase105" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_ttsoc")
+tip = "Act"
+nr = "90"
+simbol = "Th"
+nume = "Toriu"
+masa = "232"
+desc = "	Toriul este un element chimic natural radioactiv cu numărul atomic 90 și simbol chimic Th, ce se găsește în natură (izotopul său cel mai stabil 232Th, care are un timp de înjumătățire de peste 14 miliarde de ani)."
+
+[node name="ElementBase106" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_qxpsi")
+tip = "Act"
+nr = "91"
+simbol = "Pa"
+nume = "Protactiniu"
+masa = "231"
+desc = "	Protactiniu este un element chimic cu simbolul Pa. Are numărul atomic 91. Protactiniul a fost identificat pentru prima dată de Kasimir Fajans și de Oswald Helmuth Göhring în 1913. Aceștia îl numesc brevium. Însă adevărații descoperitori ai protactiniului sunt Otto Hahn și Lise Meitner (1917)."
+
+[node name="ElementBase107" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_1a54n")
+tip = "Act"
+nr = "92"
+simbol = "U"
+nume = "Uraniu"
+masa = "238"
+desc = "Uraniu, în latină uranium, este un element chimic, un metal, din seria actinidelor a sistemului periodic al elementelor care are simbolul chimic U și numărul atomic 92.
+Configurația electronică a atomului de uraniu
+Uraniul are cea mai mare masă atomică dintre toate elementele naturale."
+
+[node name="ElementBase108" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_lslqu")
+tip = "Act"
+nr = "93"
+simbol = "Np"
+nume = "Neptuniu"
+masa = "237"
+desc = "	Neptuniul este un element chimic aflat pe poziția 93 în tabelul periodic al elementelor. Element cu caracter metalic radioactiv, neptuniul este primul element transuranian și aparține seriei actinidelor. Cel mai stabil izotop al său, 237Np, este un produs în reactoarele nucleare, iar acesta împreună cu plutoniul pot fi folosite la echipamentele de detecție a neutronilor. Neptuniul este de asemenea găsit în urme fine pe minereurile de uraniu în urma reacțiilor de transmutație."
+
+[node name="ElementBase109" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_s8pp2")
+tip = "Act"
+nr = "94"
+simbol = "Pu"
+nume = "Plutoniu"
+masa = "244"
+desc = "	Plutoniul este un element chimic metalic radioactiv din grupa actinidelor, având numărul atomic 94 și simbolul chimic Pu. A fost descoperit în 1940 în urma reacției de bombardare a 238U cu deuteroni, dar – din cauza războiului – descoperirea sa a fost comunicată abia în 1948. A fost „botezat” în martie 1942."
+
+[node name="ElementBase110" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_5m1vx")
+tip = "Act"
+nr = "95"
+simbol = "Am"
+nume = "Americiu"
+masa = "243"
+desc = "	Americiul este un element chimic sintetic din sistemul periodic al elementelor cu simbolul Am și numărul atomic 95. Este un metal radioactiv din seria actinidelor. El a fost cel de-al patrulea element transuranian descoperit, fiind obținut prin bombardarea plutoniului cu neutroni și numit după continentul America, prin analogie cu europiul (acestea două fiind și singurele denumite după continente)."
+
+[node name="ElementBase111" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_j5822")
+tip = "Act"
+nr = "96"
+simbol = "Cm"
+nume = "Curiu"
+masa = "247"
+desc = "	Curiul este un element chimic sintetic din sistemul periodic al elementelor cu simbolul Cm și numărul atomic 96. Este un metal radioactiv transuranian din seria actinidelor ce a fost obținut prin bombardarea unor atomi de plutoniu cu particule alfa (ioni de heliu). Numele a fost dat în onoarea savanților Marie și Pierre Curie."
+
+[node name="ElementBase112" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_fm07e")
+tip = "Act"
+nr = "97"
+simbol = "Bk"
+nume = "Berkeliu"
+masa = "247"
+desc = "	Berkeliul este un element radioactiv transuranian din seria actinidelor cu simbolul Bk și numărul atomic 97, făcând totodată parte și din seria actinidelor. A fost numit după orașul Berkeley, din California, locul unde se află University of California Radiation Laboratory și unde acesta a fost descoperit în luna decembrie a anului 1949. Berkeliul a fost al cincilea element transuranian descoperit, după neptuniu, plutoniu, curiu și americiu."
+
+[node name="ElementBase113" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_js277")
+tip = "Act"
+nr = "98"
+simbol = "Cf"
+nume = "Californiu"
+masa = "251"
+desc = "	Californiul este un element chimic sintetic din sistemul periodic al elementelor cu simbolul Cf și numărul atomic 98. Este un metal radioactiv din seria actinidelor care a fost obținut în 1950 prin bombardarea unor atomi de curiu cu particule alfa (ioni de heliu). Numele provine de la statul american California în care se află laboratorul în care a fost descoperit."
+
+[node name="ElementBase114" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_gseei")
+tip = "Act"
+nr = "99"
+simbol = "Es"
+nume = "Einsteiniu"
+masa = "252"
+desc = "	Einsteiniu este un element sintetic din sistemul periodic al elementelor care are ca simbol Es și un număr atomic egal cu 99. Einsteiniu, un element transuranian, metallic și extrem de radioactiv (al-7-lea in seria actinidelor) , este obținut prin bombardarea plutoniului cu neutroni și a fost descoperit în deșeurile primului test al unei bombe cu hidrogen . A fost numit după Albert Einstein și nu are nici un folos cunoscut."
+
+[node name="ElementBase115" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_r5ipl")
+tip = "Act"
+nr = "100"
+simbol = "Fm"
+nume = "Fermiu"
+masa = "257"
+desc = "	Fermiul este un element chimic sintetic din categoria actinidelor, care are numărul atomic 100 și simbolul chimic Fm. Este cel mai greu element ce se poate obține prin bombardarea cu neutroni ai elementelor ușoare și ultimul element ce se poate obține în cantități macroscopice, dar nu s-a reușit încă obținerea de fermiu metalic pur."
+
+[node name="ElementBase116" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_jkvvm")
+tip = "Act"
+nr = "101"
+simbol = "Md"
+nume = "Mendeleviu"
+masa = "258"
+desc = "	A fost sintetizat pentru prima dată, la începutul anului 1955, de Albert Ghiorso, din echipa savanților Glenn T. Seaborg, Bernard Harvey și Greg Choppin. Echipa a produs Md-256 cu timp de înjumătățire de 76 minute, prin bombardarea unei ținte de einsteiniu-253 cu particule alfa (nuclee de heliu), în ciclotronul de 60 de inch al Laboratorului Național de Radiații Berkeley. S-a reușit numai sintetizarea unui singur atom de Md-256."
+onLeft = true
+
+[node name="ElementBase117" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_670vr")
+tip = "Act"
+nr = "102"
+simbol = "No"
+nume = "Nobeliu"
+masa = "259"
+desc = "	Nobeliul este un element sintetic în tabelul periodic al elementelor care are simbolul No și numărul atomic 102. Un element metalic radioactiv transuranian în seria actinidelor, nobeliul este sintetizat prin bombardarea curiului cu ioni de carbon. A fost descoperit pentru prima dată, de o echipă condusă de către Albert Ghiorso și Glenn T. Seaborg în anul 1958. Este ultimul element care poate fi produs prin fuziune nucleară în nucleele stelelor (dar doar în cele cu masă mai mare de 5 mase solare), și deci cel mai greu element a cărui formare nu necesită un eveniment cataclismic de tipul unei supernove."
+onLeft = true
+
+[node name="ElementBase118" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_22wi7")
+tip = "Act"
+nr = "103"
+simbol = "Lr"
+nume = "Lawrenciu"
+masa = "266"
+desc = "	Lawrenciu este un element chimic artificial și radioactiv, aparținând actinidelor, și având ca simbol chimic Lr. Lawrenciul a fost sintetizat pentru prima dată la 14 februarie 1961, de o echipă de fizicieni, condusă de Albert Ghiorso, experți în fizică nucleară de la Laboratorul Național Lawrence Berkeley, din cadrul Universității California."
 onLeft = true
