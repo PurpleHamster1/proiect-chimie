@@ -1,4 +1,7 @@
 res://main.tscn
 res://ElementBase.tscn
 res://Elements/empty_element.tscn
+res://Global.gd
+res://Selection.gd
+res://elementSelect.tscn
 res://ElementBase.gd

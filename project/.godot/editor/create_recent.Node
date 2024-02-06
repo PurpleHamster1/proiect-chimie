@@ -1,10 +1,10 @@
-HBoxContainer
 Label
-Panel
-Control
 VBoxContainer
+Panel
+GridContainer
+HBoxContainer
+Control
 ColorRect
 RichTextLabel
 PanelContainer
-GridContainer
 CanvasLayer

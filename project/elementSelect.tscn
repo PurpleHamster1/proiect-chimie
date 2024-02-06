@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://hbljyhcuhxg0"]
+
+[ext_resource type="Script" path="res://Selection.gd" id="1_8js76"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_1ql4k"]
+
+[node name="Element" type="VBoxContainer"]
+custom_minimum_size = Vector2(20, 0)
+size_flags_horizontal = 3
+size_flags_vertical = 3
+script = ExtResource("1_8js76")
+
+[node name="Selection" type="Panel" parent="."]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_styles/panel = SubResource("StyleBoxFlat_1ql4k")
+
+[connection signal="mouse_entered" from="Selection" to="." method="_on_selection_mouse_entered"]
+[connection signal="mouse_exited" from="Selection" to="." method="_on_selection_mouse_exited"]

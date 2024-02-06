@@ -54,7 +54,10 @@ func _ready():
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
-	pass
+	if Global.hover != tip and Global.hover != "none":
+		modulate.a = 0.5
+	else: 
+		modulate.a = 1
 
 
 func _on_mouse_entered():

@@ -1,8 +1,9 @@
-[gd_scene load_steps=125 format=3 uid="uid://bxubmmwnlk8d8"]
+[gd_scene load_steps=136 format=3 uid="uid://bxubmmwnlk8d8"]
 
 [ext_resource type="PackedScene" uid="uid://djqj55iccj6rx" path="res://ElementBase.tscn" id="1_bx3qn"]
 [ext_resource type="Script" path="res://main.gd" id="1_xijjo"]
 [ext_resource type="PackedScene" uid="uid://0xfuoff1m8j7" path="res://Elements/empty_element.tscn" id="3_qrld7"]
+[ext_resource type="PackedScene" uid="uid://hbljyhcuhxg0" path="res://elementSelect.tscn" id="4_jtyq5"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_yv2sm"]
 
@@ -1417,6 +1418,26 @@ corner_radius_top_right = 3
 corner_radius_bottom_right = 3
 corner_radius_bottom_left = 3
 corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_y2hhd"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_3m31r"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_06226"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_aua1f"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_kp3r6"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_f52nn"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_w3xyt"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_4sjdn"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_v8mbu"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_2d4vo"]
 
 [node name="Main" type="Node2D"]
 script = ExtResource("1_xijjo")
@@ -3147,3 +3168,219 @@ nume = "Lawrenciu"
 masa = "266"
 desc = "	Lawrenciu este un element chimic artificial și radioactiv, aparținând actinidelor, și având ca simbol chimic Lr. Lawrenciul a fost sintetizat pentru prima dată la 14 februarie 1961, de o echipă de fizicieni, condusă de Albert Ghiorso, experți în fizică nucleară de la Laboratorul Național Lawrence Berkeley, din cadrul Universității California."
 onLeft = true
+
+[node name="Tipuri" type="GridContainer" parent="MainGUI/Background"]
+layout_mode = 0
+offset_left = 366.0
+offset_top = 74.0
+offset_right = 853.0
+offset_bottom = 215.0
+columns = 5
+
+[node name="Element" parent="MainGUI/Background/Tipuri" instance=ExtResource("4_jtyq5")]
+layout_mode = 2
+tip = "Alca"
+
+[node name="Selection" parent="MainGUI/Background/Tipuri/Element" index="0"]
+theme_override_styles/panel = SubResource("StyleBoxFlat_y2hhd")
+
+[node name="Label" type="Label" parent="MainGUI/Background/Tipuri/Element/Selection" index="0"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "Alcaline
+"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Element2" parent="MainGUI/Background/Tipuri" instance=ExtResource("4_jtyq5")]
+layout_mode = 2
+tip = "AlcaP"
+
+[node name="Selection" parent="MainGUI/Background/Tipuri/Element2" index="0"]
+theme_override_styles/panel = SubResource("StyleBoxFlat_3m31r")
+
+[node name="Label" type="Label" parent="MainGUI/Background/Tipuri/Element2/Selection" index="0"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 14
+text = "Alcalino Pamantoase
+"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Element3" parent="MainGUI/Background/Tipuri" instance=ExtResource("4_jtyq5")]
+layout_mode = 2
+tip = "Lant"
+
+[node name="Selection" parent="MainGUI/Background/Tipuri/Element3" index="0"]
+theme_override_styles/panel = SubResource("StyleBoxFlat_06226")
+
+[node name="Label" type="Label" parent="MainGUI/Background/Tipuri/Element3/Selection" index="0"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "Lantanide"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Element4" parent="MainGUI/Background/Tipuri" instance=ExtResource("4_jtyq5")]
+layout_mode = 2
+tip = "Act"
+
+[node name="Selection" parent="MainGUI/Background/Tipuri/Element4" index="0"]
+theme_override_styles/panel = SubResource("StyleBoxFlat_aua1f")
+
+[node name="Label" type="Label" parent="MainGUI/Background/Tipuri/Element4/Selection" index="0"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "Actinide"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Element5" parent="MainGUI/Background/Tipuri" instance=ExtResource("4_jtyq5")]
+layout_mode = 2
+tip = "MetalT"
+
+[node name="Selection" parent="MainGUI/Background/Tipuri/Element5" index="0"]
+theme_override_styles/panel = SubResource("StyleBoxFlat_kp3r6")
+
+[node name="Label" type="Label" parent="MainGUI/Background/Tipuri/Element5/Selection" index="0"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "Metale de Tranzitie"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Element6" parent="MainGUI/Background/Tipuri" instance=ExtResource("4_jtyq5")]
+layout_mode = 2
+tip = "MetalPT"
+
+[node name="Selection" parent="MainGUI/Background/Tipuri/Element6" index="0"]
+theme_override_styles/panel = SubResource("StyleBoxFlat_f52nn")
+
+[node name="Label" type="Label" parent="MainGUI/Background/Tipuri/Element6/Selection" index="0"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 14
+text = "Metale de Post Tranzitie"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="Element7" parent="MainGUI/Background/Tipuri" instance=ExtResource("4_jtyq5")]
+layout_mode = 2
+tip = "Metalo"
+
+[node name="Selection" parent="MainGUI/Background/Tipuri/Element7" index="0"]
+theme_override_styles/panel = SubResource("StyleBoxFlat_w3xyt")
+
+[node name="Label" type="Label" parent="MainGUI/Background/Tipuri/Element7/Selection" index="0"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "Metaloizi"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Element8" parent="MainGUI/Background/Tipuri" instance=ExtResource("4_jtyq5")]
+layout_mode = 2
+tip = "Nemetal"
+
+[node name="Selection" parent="MainGUI/Background/Tipuri/Element8" index="0"]
+theme_override_styles/panel = SubResource("StyleBoxFlat_4sjdn")
+
+[node name="Label" type="Label" parent="MainGUI/Background/Tipuri/Element8/Selection" index="0"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "Nemetale"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Element9" parent="MainGUI/Background/Tipuri" instance=ExtResource("4_jtyq5")]
+layout_mode = 2
+tip = "Halo"
+
+[node name="Selection" parent="MainGUI/Background/Tipuri/Element9" index="0"]
+theme_override_styles/panel = SubResource("StyleBoxFlat_v8mbu")
+
+[node name="Label" type="Label" parent="MainGUI/Background/Tipuri/Element9/Selection" index="0"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "Halogeni"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Element10" parent="MainGUI/Background/Tipuri" instance=ExtResource("4_jtyq5")]
+layout_mode = 2
+tip = "Nobil"
+
+[node name="Selection" parent="MainGUI/Background/Tipuri/Element10" index="0"]
+theme_override_styles/panel = SubResource("StyleBoxFlat_2d4vo")
+
+[node name="Label" type="Label" parent="MainGUI/Background/Tipuri/Element10/Selection" index="0"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "Gaze Nobile"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[editable path="MainGUI/Background/Tipuri/Element"]
+[editable path="MainGUI/Background/Tipuri/Element2"]
+[editable path="MainGUI/Background/Tipuri/Element3"]
+[editable path="MainGUI/Background/Tipuri/Element4"]
+[editable path="MainGUI/Background/Tipuri/Element5"]
+[editable path="MainGUI/Background/Tipuri/Element6"]
+[editable path="MainGUI/Background/Tipuri/Element7"]
+[editable path="MainGUI/Background/Tipuri/Element8"]
+[editable path="MainGUI/Background/Tipuri/Element9"]
+[editable path="MainGUI/Background/Tipuri/Element10"]
