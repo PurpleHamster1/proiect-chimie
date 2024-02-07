@@ -1806,8 +1806,6 @@ layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = -6.10352e-05
-offset_right = -10.0001
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_constants/h_separation = 5
@@ -1823,51 +1821,83 @@ desc = "	Este un gaz ușor inflamabil, incolor, insipid, inodor, iar în natură
 
 [node name="EmptyElement" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
 layout_mode = 2
+size_flags_horizontal = 1
+size_flags_vertical = 1
 
 [node name="EmptyElement2" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
 layout_mode = 2
+size_flags_horizontal = 1
+size_flags_vertical = 1
 
 [node name="EmptyElement3" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
 layout_mode = 2
+size_flags_horizontal = 1
+size_flags_vertical = 1
 
 [node name="EmptyElement4" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
 layout_mode = 2
+size_flags_horizontal = 1
+size_flags_vertical = 1
 
 [node name="EmptyElement5" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
 layout_mode = 2
+size_flags_horizontal = 1
+size_flags_vertical = 1
 
 [node name="EmptyElement6" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
 layout_mode = 2
+size_flags_horizontal = 1
+size_flags_vertical = 1
 
 [node name="EmptyElement7" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
 layout_mode = 2
+size_flags_horizontal = 1
+size_flags_vertical = 1
 
 [node name="EmptyElement8" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
 layout_mode = 2
+size_flags_horizontal = 1
+size_flags_vertical = 1
 
 [node name="EmptyElement9" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
 layout_mode = 2
+size_flags_horizontal = 1
+size_flags_vertical = 1
 
 [node name="EmptyElement10" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
 layout_mode = 2
+size_flags_horizontal = 1
+size_flags_vertical = 1
 
 [node name="EmptyElement11" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
 layout_mode = 2
+size_flags_horizontal = 1
+size_flags_vertical = 1
 
 [node name="EmptyElement12" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
 layout_mode = 2
+size_flags_horizontal = 1
+size_flags_vertical = 1
 
 [node name="EmptyElement13" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
 layout_mode = 2
+size_flags_horizontal = 1
+size_flags_vertical = 1
 
 [node name="EmptyElement14" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
 layout_mode = 2
+size_flags_horizontal = 1
+size_flags_vertical = 1
 
 [node name="EmptyElement15" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
 layout_mode = 2
+size_flags_horizontal = 1
+size_flags_vertical = 1
 
 [node name="EmptyElement16" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
 layout_mode = 2
+size_flags_horizontal = 1
+size_flags_vertical = 1
 
 [node name="ElementBase2" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
 layout_mode = 2
@@ -1907,33 +1937,53 @@ Este întâlnit în natură doar în combinații cu alte elemente, fiind prezent
 
 [node name="EmptyElement17" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
 layout_mode = 2
+size_flags_horizontal = 1
+size_flags_vertical = 1
 
 [node name="EmptyElement18" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
 layout_mode = 2
+size_flags_horizontal = 1
+size_flags_vertical = 1
 
 [node name="EmptyElement19" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
 layout_mode = 2
+size_flags_horizontal = 1
+size_flags_vertical = 1
 
 [node name="EmptyElement20" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
 layout_mode = 2
+size_flags_horizontal = 1
+size_flags_vertical = 1
 
 [node name="EmptyElement21" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
 layout_mode = 2
+size_flags_horizontal = 1
+size_flags_vertical = 1
 
 [node name="EmptyElement22" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
 layout_mode = 2
+size_flags_horizontal = 1
+size_flags_vertical = 1
 
 [node name="EmptyElement23" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
 layout_mode = 2
+size_flags_horizontal = 1
+size_flags_vertical = 1
 
 [node name="EmptyElement24" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
 layout_mode = 2
+size_flags_horizontal = 1
+size_flags_vertical = 1
 
 [node name="EmptyElement25" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
 layout_mode = 2
+size_flags_horizontal = 1
+size_flags_vertical = 1
 
 [node name="EmptyElement26" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
 layout_mode = 2
+size_flags_horizontal = 1
+size_flags_vertical = 1
 
 [node name="ElementBase5" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
 layout_mode = 2
@@ -2019,33 +2069,53 @@ desc = "	Magneziul este elementul chimic din tabelul periodic al elementelor car
 
 [node name="EmptyElement27" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
 layout_mode = 2
+size_flags_horizontal = 1
+size_flags_vertical = 1
 
 [node name="EmptyElement28" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
 layout_mode = 2
+size_flags_horizontal = 1
+size_flags_vertical = 1
 
 [node name="EmptyElement29" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
 layout_mode = 2
+size_flags_horizontal = 1
+size_flags_vertical = 1
 
 [node name="EmptyElement30" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
 layout_mode = 2
+size_flags_horizontal = 1
+size_flags_vertical = 1
 
 [node name="EmptyElement31" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
 layout_mode = 2
+size_flags_horizontal = 1
+size_flags_vertical = 1
 
 [node name="EmptyElement32" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
 layout_mode = 2
+size_flags_horizontal = 1
+size_flags_vertical = 1
 
 [node name="EmptyElement33" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
 layout_mode = 2
+size_flags_horizontal = 1
+size_flags_vertical = 1
 
 [node name="EmptyElement34" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
 layout_mode = 2
+size_flags_horizontal = 1
+size_flags_vertical = 1
 
 [node name="EmptyElement35" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
 layout_mode = 2
+size_flags_horizontal = 1
+size_flags_vertical = 1
 
 [node name="EmptyElement36" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
 layout_mode = 2
+size_flags_horizontal = 1
+size_flags_vertical = 1
 
 [node name="ElementBase13" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
 layout_mode = 2
@@ -2148,7 +2218,7 @@ nr = "22"
 simbol = "Ti"
 nume = "Titan"
 masa = "47.867"
-desc = "	Titanul este un element chimic cu simbolul Ti și numărul atomic 22. Are o densitate mică și este un metal de tranziție dur, lucios și rezistent la coroziune (inclusiv față de apa de mare, apa regală și clor), cu o culoare argintie. Este al nouălea cel mai răspândit element, alcătuind 0,6% din scoarța terestră. Titanul poate fi folosit în combinații cu fierul, vanadiul, molibdenul, printre alte elemente, cu scopul de a produce aliaje puternice și ușoare pentru industria aerospațială (motoare cu reacție, proiectile sau nave spațiale), uz militar, procese industriale (chimicale și petro-chimicale, uzine de desalinizare, hârtie), automobile, agro-alimentare, proteze medicale, implanturi ortopedice, instrumente și pile dentare, implanturi dentare, bijuterii, telefoane mobile și alte aplicații."
+desc = "	Titanul este un element chimic cu simbolul Ti și numărul atomic 22. Are o densitate mică și este un metal de tranziție dur, lucios și rezistent la coroziune (inclusiv față de apa de mare, apa regală și clor), cu o culoare argintie. Este al nouălea cel mai răspândit element, alcătuind 0,6% din scoarța terestră. Titanul poate fi folosit în combinații cu fierul, vanadiul, molibdenul, printre alte elemente, cu scopul de a produce aliaje puternice și ușoare pentru industria aerospațială, uz militar, procese industriale."
 
 [node name="ElementBase23" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
 layout_mode = 2
@@ -2188,7 +2258,7 @@ nr = "26"
 simbol = "Fe"
 nume = "Fier"
 masa = "55.845"
-desc = "	Fierul este un element chimic metalic, notat cu simbolul Fe (din limba latină: ferrum), ce are numărul atomic 26 și masa atomică 56. Este un metal aflat în prima grupă a metalelor tranziționale. Este elementul chimic cel mai întâlnit pe Terra, formând cea mai mare parte a nucleului acestei planete și este al patrulea element ca abundență în scoarța terestră. Este produs în cantitate mare ca rezultat de fuziune în stelele cu masă mare, unde producerea de nichel-56 (care se dezintegrează în fier) este ultima reacție fuziune nucleară ce este exotermă, devenind ultimul element care se produce înaintea stingerii unei supernove ce duce la reacții ce împrăștie precursorii radionuclizilor fierului în spațiu."
+desc = "	Fierul este un element chimic metalic, notat cu simbolul Fe (din limba latină: ferrum), ce are numărul atomic 26 și masa atomică 56. Este un metal aflat în prima grupă a metalelor tranziționale. Este elementul chimic cel mai întâlnit pe Terra, formând cea mai mare parte a nucleului acestei planete și este al patrulea element ca abundență în scoarța terestră. Este produs în cantitate mare ca rezultat de fuziune în stelele cu masă mare."
 
 [node name="ElementBase27" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
 layout_mode = 2
@@ -2501,6 +2571,8 @@ desc = "	Bariul (din gr. βαρύς: \"greu\", din cauza densității mineralulu
 
 [node name="EmptyElement37" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
 layout_mode = 2
+size_flags_horizontal = 1
+size_flags_vertical = 1
 theme_override_styles/panel = SubResource("StyleBoxFlat_k5lyb")
 tip = "Lant"
 nr = "0"
@@ -2684,6 +2756,8 @@ desc = "	Radiul este al 88-lea element din sistemul periodic al elementelor, av�
 
 [node name="EmptyElement38" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
 layout_mode = 2
+size_flags_horizontal = 1
+size_flags_vertical = 1
 theme_override_styles/panel = SubResource("StyleBoxFlat_j7d13")
 tip = "Act"
 nr = "0"
@@ -2843,12 +2917,18 @@ onLeft = true
 
 [node name="EmptyElement39" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
 layout_mode = 2
+size_flags_horizontal = 1
+size_flags_vertical = 1
 
 [node name="EmptyElement40" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
 layout_mode = 2
+size_flags_horizontal = 1
+size_flags_vertical = 1
 
 [node name="EmptyElement41" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
 layout_mode = 2
+size_flags_horizontal = 1
+size_flags_vertical = 1
 
 [node name="ElementBase89" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
 layout_mode = 2
@@ -2861,6 +2941,7 @@ masa = "138,90"
 desc = "	Lantanul este un element chimic din tabelul periodic, notat cu simbolul La, care are numărul atomic 57.
 
 	Lantan a dat denumirea seriei lantanidelor, un grup de 15 elemente asemănătoare, între lantan și lutețiu, care fac parte din seria pământurilor rare. Numele său provine din termenul grecesc „lanthanein”, care înseamnă „a ascunde”: lantan a rămas mult timp ascuns în oxidul de ceriu."
+yOff = -50
 
 [node name="ElementBase90" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
 layout_mode = 2
@@ -2871,6 +2952,7 @@ simbol = "Ce"
 nume = "Ceriu"
 masa = "140,11"
 desc = "	Ceriul este un element metalic argintiu, aparținând grupului lantanidelor. Se folosește în aliaje de pământuri rare. Seamănă cu fierul la culoare, dar este moale, precum și maleabil și ductil. La contactul cu aerul își pierde luciul. Doar europiul este mai reactiv decât ceriul, dintre pământurile rare. Soluțiile alcaline și acizii diluați și concentrați ataca rapid metalul. În stare pură prezintă o probabilitate ridicată de a lua foc dacă este frecat cu un cuțit. Ceriul se oxidează lent în apă rece și foarte rapid în apă caldă."
+yOff = -50
 
 [node name="ElementBase91" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
 layout_mode = 2
@@ -2881,6 +2963,7 @@ simbol = "Pr"
 nume = "Praseodim"
 masa = "140,90"
 desc = "	Praseodim (simbol Pr) este elementul chimic, din familia pământurilor rare, cu numărul atomic 59. A fost descoperit de Carl Auer von Welsbach în 1895. Cei mai răspândiți compuși sunt sulfatul și clorura de praseodim."
+yOff = -50
 
 [node name="ElementBase92" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
 layout_mode = 2
@@ -2891,6 +2974,7 @@ simbol = "Nd"
 nume = "Neodim"
 masa = "144.24"
 desc = "	Numele acestui element vine de la cuvintele grecești νέος, transliterat: nêos, „nou” și δίδυμος, transliterat: dîdymos, „geamăn”. Într-adevăr, chimiștii au crezut mult timp că amestecul de oxid de praseodim-neodim era un corp simplu, până când Carl Auer von Welsbach le-a separat în 1895."
+yOff = -50
 
 [node name="ElementBase93" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
 layout_mode = 2
@@ -2901,6 +2985,7 @@ simbol = "Pm"
 nume = "Promețiu"
 masa = "146,91"
 desc = "`Promețiu (simbol Pm) este elementul chimic cu numărul atomic 61. A fost descoperit de Jacob A. Marinsky Lawrence E. Glendenin în 1945. Este cel mai rar element din clasa lantanidelor, deoarece nu poate fi găsit în natură."
+yOff = -50
 
 [node name="ElementBase94" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
 layout_mode = 2
@@ -2911,6 +2996,7 @@ simbol = "Sm"
 nume = "Samariu"
 masa = "150,36"
 desc = "	Samariu (simbol Sm) este elementul chimic cu numărul atomic 62. Este un metal destul de tare și argintiu care se oxidează rapid în aer. Fiind un membru obișnuit al seriei lantanidelor, samariul are de obicei starea de oxidare +3. Sunt cunoscuți, de asemenea, și compuși de samariu divalent, cei mai notabili dintre ei fiind monoxidul de samariu SmO, monocalcogenii de samariu SmS, SmSe și SmTe, precum și iodura de samariu (II). Cel din urmă este un agent reducător în sinteza chimică. Samariul nu are niciun rol biologic semnificativ, fiind doar puțin toxic."
+yOff = -50
 
 [node name="ElementBase95" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
 layout_mode = 2
@@ -2921,6 +3007,7 @@ simbol = "Eu"
 nume = "Europiu"
 masa = "151,96"
 desc = "	Europiu (simbol Eu) este elementul chimic cu numărul atomic 63. A fost descoperit de Eugène-Anatole Demarçay în 1901."
+yOff = -50
 
 [node name="ElementBase96" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
 layout_mode = 2
@@ -2931,6 +3018,7 @@ simbol = "Gd"
 nume = "Gadoliniu"
 masa = "157,25"
 desc = "	Gadoliniu (simbol Gd) este elementul chimic cu numărul atomic 64 în Tabelul periodic al elementelor, numit și Tabelul lui Mendeleev. A fost descoperit prin spectroscopie în 1880 de Jean Charles Galissard de Marignac - posibil, analizând mineralul gadolinită și care i-a dat numele după chimistul finlandez Johan Gadolin."
+yOff = -50
 
 [node name="ElementBase97" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
 layout_mode = 2
@@ -2941,6 +3029,7 @@ simbol = "Tb"
 nume = "Terbiu"
 masa = "158,92"
 desc = "Terbiu (simbol Tb) este elementul chimic cu numărul atomic 65. A fost descoperit de Carl Gustaf Mosander în 1843."
+yOff = -50
 
 [node name="ElementBase98" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
 layout_mode = 2
@@ -2951,6 +3040,7 @@ simbol = "Dy"
 nume = "Disprosiu"
 masa = "162.5"
 desc = "	Disprosiu (simbol Dy) este elementul chimic cu numărul atomic 66. A fost descoperit de Paul Emile Lecoq de Boisbaudran în 1886."
+yOff = -50
 
 [node name="ElementBase99" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
 layout_mode = 2
@@ -2961,6 +3051,7 @@ simbol = "Ho"
 nume = "Holomiu"
 masa = "164,93"
 desc = "	Holmiu (simbol Ho) este elementul chimic cu numărul atomic 67. A fost descoperit de Soret în 1878."
+yOff = -50
 
 [node name="ElementBase100" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
 layout_mode = 2
@@ -2971,6 +3062,7 @@ simbol = "Er"
 nume = "Erbiu"
 masa = "167,25"
 desc = "	Erbiu (simbol Er) este elementul chimic cu numărul atomic 68. A fost descoperit de Mosander în 1842. Când a fost izolat pentru prima dată, erbiul părea a fi un metal solid de culoare alb-argintie; el apare în combinații chimice cu alte elemente de pe Pământ. Însă, el este un element chimic rar, ce poate fi găsit în asociație cu alte elemente în mineralul numit gadolinit, mai ales din cel care provine din zona Ytterby, din Suedia."
+yOff = -50
 
 [node name="ElementBase101" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
 layout_mode = 2
@@ -2982,6 +3074,7 @@ nume = "Tuliu"
 masa = "168,93"
 desc = "	Tuliu (simbol Tm) este elementul chimic cu numărul atomic 69. Tuliul este un metal din grupa pământurilor rare. Ca și alte lantanide, este maleabil și ductil la temperatura ambiantă. Se oxidează puțin în aerul uscat."
 onLeft = true
+yOff = -50
 
 [node name="ElementBase102" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
 layout_mode = 2
@@ -2993,6 +3086,7 @@ nume = "Yterbiu"
 masa = "173,04"
 desc = "	Yterbiul este un element chimic din tabelul periodic care are simbolul Yb și numărul atomic 70. Din punct de vedere fizic este o substanță metalică moale, de culoare argintie; yterbiul este un pământ rar din seria lantanidelor și în natură este răspândit sub forma unor compuși în compoziția unor minerale."
 onLeft = true
+yOff = -50
 
 [node name="ElementBase103" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
 layout_mode = 2
@@ -3004,15 +3098,22 @@ nume = "Lutețiu"
 masa = "174.97"
 desc = "	Lutețiul este un element chimic cu simbolul Lu și cu numărul atomic 71. Este ultimul element din seria lantanidelor, care, împreună cu contracția lantanidelor, explică câteva proprietăți importante ale lutețiului, astfel el este cel mai dur și mai dens lantanid. Spre deosebire de alte lantanide, care se află în blocul f al Sistemului Periodic al elementelor."
 onLeft = true
+yOff = -50
 
 [node name="EmptyElement42" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
 layout_mode = 2
+size_flags_horizontal = 1
+size_flags_vertical = 1
 
 [node name="EmptyElement43" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
 layout_mode = 2
+size_flags_horizontal = 1
+size_flags_vertical = 1
 
 [node name="EmptyElement44" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("3_qrld7")]
 layout_mode = 2
+size_flags_horizontal = 1
+size_flags_vertical = 1
 
 [node name="ElementBase104" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
 layout_mode = 2
@@ -3190,6 +3291,8 @@ offset_left = 366.0
 offset_top = 74.0
 offset_right = 853.0
 offset_bottom = 215.0
+theme_override_constants/h_separation = 0
+theme_override_constants/v_separation = 0
 columns = 5
 
 [node name="Element" parent="MainGUI/Background/Tipuri" instance=ExtResource("4_jtyq5")]

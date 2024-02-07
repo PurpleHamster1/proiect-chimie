@@ -28,6 +28,9 @@ corner_detail = 1
 
 [node name="ElementBase" type="Panel"]
 custom_minimum_size = Vector2(50, 50)
+pivot_offset = Vector2(25, 25)
+size_flags_horizontal = 3
+size_flags_vertical = 3
 theme_override_styles/panel = SubResource("StyleBoxFlat_jp3ns")
 script = ExtResource("1_1aox5")
 tip = "Nemetal"

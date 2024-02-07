@@ -3,6 +3,8 @@ extends VBoxContainer
 @export var tip : String
 
 @onready var panel = $Selection
+
+var tween
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	var test = panel.get_theme_stylebox("panel")
@@ -18,7 +20,7 @@ func _ready():
 		"MetalT":
 			test.bg_color = Color.GRAY
 		"MetalPT":
-			test.bg_color = Color.WEB_GRAY
+			test.bg_color = Color.LIGHT_SLATE_GRAY
 		"Metalo":
 			test.bg_color = Color.LIGHT_BLUE
 		"Nemetal":
@@ -38,15 +40,25 @@ func _ready():
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
 	if Global.hover != tip and Global.hover != "none":
-		modulate.a = 0.5
+		if modulate.a == 1:
+			tween = get_tree().create_tween().tween_property(self, "modulate:a", 0.25, 0.5)
+			await tween.finished
 	else: 
-		modulate.a = 1
+		if modulate.a == 0.25:
+			if Global.hover == "none":
+				await get_tree().create_timer(0.2).timeout
+				if Global.hover == "none":
+					tween = get_tree().create_tween().tween_property(self, "modulate:a", 1, 0.5)
+			else:
+				tween = get_tree().create_tween().tween_property(self, "modulate:a", 1, 0.5)
+			await tween.finished
 
 
 
 
 
 func _on_selection_mouse_entered():
+	await get_tree().create_timer(0.08).timeout
 	Global.hover = tip
 
 

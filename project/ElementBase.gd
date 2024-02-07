@@ -17,6 +17,9 @@ extends Panel
 @onready var mass = $Mass
 
 var mouseHover = false
+var tween
+var scaleTween
+var timesEntered = 0
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	var test = get_theme_stylebox("panel")
@@ -32,7 +35,7 @@ func _ready():
 		"MetalT":
 			test.bg_color = Color.GRAY
 		"MetalPT":
-			test.bg_color = Color.WEB_GRAY
+			test.bg_color = Color.LIGHT_SLATE_GRAY
 		"Metalo":
 			test.bg_color = Color.LIGHT_BLUE
 		"Nemetal":
@@ -56,22 +59,42 @@ func _ready():
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
+	
 	if Global.hover != tip and Global.hover != "none":
-		modulate.a = 0.5
-	else: 
-		modulate.a = 1
+		if modulate.a == 1:
+			tween = get_tree().create_tween().tween_property(self, "modulate:a", 0.25, 0.5)
+			await tween.finished
+		#modulate.a = 0.5
+	else:
+		if modulate.a == 0.25:
+			await get_tree().create_timer(0.1).timeout
+			if Global.hover == tip or Global.hover == "none":
+				tween = get_tree().create_tween().tween_property(self, "modulate:a", 1, 0.5)
+				await tween.finished
+		#modulate.a = 1
 
 
 func _on_mouse_entered():
 	if tip != "Empty" and nr != "0":
+		timesEntered += 1
 		mouseHover = true
-		scale = Vector2(1.05, 1.05)
+		scaleTween = get_tree().create_tween()
+		scaleTween.tween_property(self, "scale", Vector2(1.1, 1.1), 0.1)
+		#scale = Vector2(1.05, 1.05)
+		var last = timesEntered
 		await get_tree().create_timer(0.5).timeout
-		if mouseHover == true:
-			popUp.visible = true
+		if get_global_rect().has_point(get_global_mouse_position()) == true and timesEntered == last:
+			if mouseHover == true:
+				popUp.visible = true
 
 func _on_mouse_exited():
 	if tip != "Empty" and nr != "0":
-		scale = Vector2(1,1)
+		if scaleTween != null:
+			scaleTween.kill()
+		Global.lastEnter = tip
+		await get_tree().create_timer(0.25).timeout
+		if get_global_rect().has_point(get_global_mouse_position()) == false:
+			scaleTween = get_tree().create_tween().tween_property(self, "scale", Vector2(1,1), 0.1)
+		#scale = Vector2(1,1)
 		mouseHover = false
 		popUp.visible = false
