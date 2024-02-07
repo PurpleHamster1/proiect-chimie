@@ -7,6 +7,7 @@ extends Panel
 @export var masa : String
 @export_multiline var desc : String
 @export var onLeft : bool = false
+@export var yOff : int = 0
 
 @onready var popUp = $PopUp
 @onready var popUpDesc = $PopUp/Desc
@@ -46,6 +47,7 @@ func _ready():
 	longName.text = nume
 	mass.text = masa
 	popUpDesc.text = desc
+	popUp.position.y += yOff
 	
 	if onLeft == true:
 		popUp.position.x = -popUp.size.x

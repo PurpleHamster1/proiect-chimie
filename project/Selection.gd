@@ -27,12 +27,20 @@ func _ready():
 			test.bg_color = Color.LIGHT_YELLOW
 		"Nobil":
 			test.bg_color = Color.MEDIUM_PURPLE
+	test.border_width_left = 1
+	test.border_width_top = 1
+	test.border_width_right = 1
+	test.border_width_bottom = 1
+	test.border_color = Color.WHITE_SMOKE
 	panel.add_theme_stylebox_override("panel", test)
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
-	pass
+	if Global.hover != tip and Global.hover != "none":
+		modulate.a = 0.5
+	else: 
+		modulate.a = 1
 
 
 

@@ -3023,6 +3023,7 @@ simbol = "Ac"
 nume = "Actiniu"
 masa = "227"
 desc = "	Actiniul este un element chimic radioactiv, notat cu simbolul Ac, descoperit în anul 1899 de către chimistul André-Louis Debierne având numărul atomic 89, iar masa atomică este de 227,0278 uam. A fost primul element radioactiv care a fost izolat, deși poloniul, radiul și radonul erau observate înainte, însă neizolate până în anul 1902."
+yOff = -150
 
 [node name="ElementBase105" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
 layout_mode = 2
@@ -3033,6 +3034,7 @@ simbol = "Th"
 nume = "Toriu"
 masa = "232"
 desc = "	Toriul este un element chimic natural radioactiv cu numărul atomic 90 și simbol chimic Th, ce se găsește în natură (izotopul său cel mai stabil 232Th, care are un timp de înjumătățire de peste 14 miliarde de ani)."
+yOff = -150
 
 [node name="ElementBase106" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
 layout_mode = 2
@@ -3043,6 +3045,7 @@ simbol = "Pa"
 nume = "Protactiniu"
 masa = "231"
 desc = "	Protactiniu este un element chimic cu simbolul Pa. Are numărul atomic 91. Protactiniul a fost identificat pentru prima dată de Kasimir Fajans și de Oswald Helmuth Göhring în 1913. Aceștia îl numesc brevium. Însă adevărații descoperitori ai protactiniului sunt Otto Hahn și Lise Meitner (1917)."
+yOff = -150
 
 [node name="ElementBase107" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
 layout_mode = 2
@@ -3055,6 +3058,7 @@ masa = "238"
 desc = "Uraniu, în latină uranium, este un element chimic, un metal, din seria actinidelor a sistemului periodic al elementelor care are simbolul chimic U și numărul atomic 92.
 Configurația electronică a atomului de uraniu
 Uraniul are cea mai mare masă atomică dintre toate elementele naturale."
+yOff = -150
 
 [node name="ElementBase108" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
 layout_mode = 2
@@ -3065,6 +3069,7 @@ simbol = "Np"
 nume = "Neptuniu"
 masa = "237"
 desc = "	Neptuniul este un element chimic aflat pe poziția 93 în tabelul periodic al elementelor. Element cu caracter metalic radioactiv, neptuniul este primul element transuranian și aparține seriei actinidelor. Cel mai stabil izotop al său, 237Np, este un produs în reactoarele nucleare, iar acesta împreună cu plutoniul pot fi folosite la echipamentele de detecție a neutronilor. Neptuniul este de asemenea găsit în urme fine pe minereurile de uraniu în urma reacțiilor de transmutație."
+yOff = -150
 
 [node name="ElementBase109" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
 layout_mode = 2
@@ -3075,6 +3080,7 @@ simbol = "Pu"
 nume = "Plutoniu"
 masa = "244"
 desc = "	Plutoniul este un element chimic metalic radioactiv din grupa actinidelor, având numărul atomic 94 și simbolul chimic Pu. A fost descoperit în 1940 în urma reacției de bombardare a 238U cu deuteroni, dar – din cauza războiului – descoperirea sa a fost comunicată abia în 1948. A fost „botezat” în martie 1942."
+yOff = -150
 
 [node name="ElementBase110" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
 layout_mode = 2
@@ -3085,6 +3091,7 @@ simbol = "Am"
 nume = "Americiu"
 masa = "243"
 desc = "	Americiul este un element chimic sintetic din sistemul periodic al elementelor cu simbolul Am și numărul atomic 95. Este un metal radioactiv din seria actinidelor. El a fost cel de-al patrulea element transuranian descoperit, fiind obținut prin bombardarea plutoniului cu neutroni și numit după continentul America, prin analogie cu europiul (acestea două fiind și singurele denumite după continente)."
+yOff = -150
 
 [node name="ElementBase111" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
 layout_mode = 2
@@ -3095,6 +3102,7 @@ simbol = "Cm"
 nume = "Curiu"
 masa = "247"
 desc = "	Curiul este un element chimic sintetic din sistemul periodic al elementelor cu simbolul Cm și numărul atomic 96. Este un metal radioactiv transuranian din seria actinidelor ce a fost obținut prin bombardarea unor atomi de plutoniu cu particule alfa (ioni de heliu). Numele a fost dat în onoarea savanților Marie și Pierre Curie."
+yOff = -150
 
 [node name="ElementBase112" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
 layout_mode = 2
@@ -3105,6 +3113,7 @@ simbol = "Bk"
 nume = "Berkeliu"
 masa = "247"
 desc = "	Berkeliul este un element radioactiv transuranian din seria actinidelor cu simbolul Bk și numărul atomic 97, făcând totodată parte și din seria actinidelor. A fost numit după orașul Berkeley, din California, locul unde se află University of California Radiation Laboratory și unde acesta a fost descoperit în luna decembrie a anului 1949. Berkeliul a fost al cincilea element transuranian descoperit, după neptuniu, plutoniu, curiu și americiu."
+yOff = -150
 
 [node name="ElementBase113" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
 layout_mode = 2
@@ -3115,6 +3124,7 @@ simbol = "Cf"
 nume = "Californiu"
 masa = "251"
 desc = "	Californiul este un element chimic sintetic din sistemul periodic al elementelor cu simbolul Cf și numărul atomic 98. Este un metal radioactiv din seria actinidelor care a fost obținut în 1950 prin bombardarea unor atomi de curiu cu particule alfa (ioni de heliu). Numele provine de la statul american California în care se află laboratorul în care a fost descoperit."
+yOff = -150
 
 [node name="ElementBase114" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
 layout_mode = 2
@@ -3125,6 +3135,7 @@ simbol = "Es"
 nume = "Einsteiniu"
 masa = "252"
 desc = "	Einsteiniu este un element sintetic din sistemul periodic al elementelor care are ca simbol Es și un număr atomic egal cu 99. Einsteiniu, un element transuranian, metallic și extrem de radioactiv (al-7-lea in seria actinidelor) , este obținut prin bombardarea plutoniului cu neutroni și a fost descoperit în deșeurile primului test al unei bombe cu hidrogen . A fost numit după Albert Einstein și nu are nici un folos cunoscut."
+yOff = -150
 
 [node name="ElementBase115" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
 layout_mode = 2
@@ -3135,6 +3146,7 @@ simbol = "Fm"
 nume = "Fermiu"
 masa = "257"
 desc = "	Fermiul este un element chimic sintetic din categoria actinidelor, care are numărul atomic 100 și simbolul chimic Fm. Este cel mai greu element ce se poate obține prin bombardarea cu neutroni ai elementelor ușoare și ultimul element ce se poate obține în cantități macroscopice, dar nu s-a reușit încă obținerea de fermiu metalic pur."
+yOff = -150
 
 [node name="ElementBase116" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
 layout_mode = 2
@@ -3146,6 +3158,7 @@ nume = "Mendeleviu"
 masa = "258"
 desc = "	A fost sintetizat pentru prima dată, la începutul anului 1955, de Albert Ghiorso, din echipa savanților Glenn T. Seaborg, Bernard Harvey și Greg Choppin. Echipa a produs Md-256 cu timp de înjumătățire de 76 minute, prin bombardarea unei ținte de einsteiniu-253 cu particule alfa (nuclee de heliu), în ciclotronul de 60 de inch al Laboratorului Național de Radiații Berkeley. S-a reușit numai sintetizarea unui singur atom de Md-256."
 onLeft = true
+yOff = -150
 
 [node name="ElementBase117" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
 layout_mode = 2
@@ -3157,6 +3170,7 @@ nume = "Nobeliu"
 masa = "259"
 desc = "	Nobeliul este un element sintetic în tabelul periodic al elementelor care are simbolul No și numărul atomic 102. Un element metalic radioactiv transuranian în seria actinidelor, nobeliul este sintetizat prin bombardarea curiului cu ioni de carbon. A fost descoperit pentru prima dată, de o echipă condusă de către Albert Ghiorso și Glenn T. Seaborg în anul 1958. Este ultimul element care poate fi produs prin fuziune nucleară în nucleele stelelor (dar doar în cele cu masă mai mare de 5 mase solare), și deci cel mai greu element a cărui formare nu necesită un eveniment cataclismic de tipul unei supernove."
 onLeft = true
+yOff = -150
 
 [node name="ElementBase118" parent="MainGUI/Background/HBoxContainer/VBoxContainer/PeriodicTable/Elements" instance=ExtResource("1_bx3qn")]
 layout_mode = 2
@@ -3168,6 +3182,7 @@ nume = "Lawrenciu"
 masa = "266"
 desc = "	Lawrenciu este un element chimic artificial și radioactiv, aparținând actinidelor, și având ca simbol chimic Lr. Lawrenciul a fost sintetizat pentru prima dată la 14 februarie 1961, de o echipă de fizicieni, condusă de Albert Ghiorso, experți în fizică nucleară de la Laboratorul Național Lawrence Berkeley, din cadrul Universității California."
 onLeft = true
+yOff = -150
 
 [node name="Tipuri" type="GridContainer" parent="MainGUI/Background"]
 layout_mode = 0
