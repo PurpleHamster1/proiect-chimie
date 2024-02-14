@@ -6,6 +6,7 @@
 [ext_resource type="PackedScene" uid="uid://hbljyhcuhxg0" path="res://elementSelect.tscn" id="4_jtyq5"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_yv2sm"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_qo5f6"]
 
